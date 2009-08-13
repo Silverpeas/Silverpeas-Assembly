@@ -41,26 +41,6 @@
     </dependency>
     -->
     
-     <!-- Component MyTests 
-    <dependency>
-      <groupId>com.silverpeas.components.mytests</groupId>
-      <artifactId>mytests-war</artifactId>
-      <type>war</type>
-      <version>1.0-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>com.silverpeas.components.mytests</groupId>
-      <artifactId>mytests-jar</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>com.silverpeas.components.mytests</groupId>
-      <artifactId>mytests-config</artifactId>
-      <version>1.0-SNAPSHOT</version>
-      <classifier>configuration</classifier>
-    </dependency>
-    -->
-    
     <!-- Component Hyperlink -->
     <dependency>
       <groupId>com.silverpeas.components.hyperlink</groupId>
