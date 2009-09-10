@@ -15,8 +15,9 @@
   <version>1.0-SNAPSHOT</version>
   <name>Assembly Silverpeas</name>
   <dependencies>
-  <!--
-  <dependency>
+ 
+    <!-- Component Gallery -->
+    <dependency>
       <groupId>com.silverpeas.components.gallery</groupId>
       <artifactId>gallery-war</artifactId>
       <type>war</type>
@@ -34,12 +35,11 @@
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components</groupId>
-      <artifactId>gallery</artifactId>
+      <groupId>com.silverpeas.components.gallery</groupId>
+      <artifactId>gallery-config</artifactId>
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    -->
     
     <!-- Component Survey -->
     <dependency>
