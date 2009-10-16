@@ -857,7 +857,7 @@
               <attach>false</attach>
               <skipAssembly>false</skipAssembly>
               <finalName>silverpeas</finalName>
-              <outputDirectory>${silverpeas.home}</outputDirectory>
+              <outputDirectory>${silverpeas.home}/../</outputDirectory>
             </configuration>
           </execution>
         </executions>
@@ -867,63 +867,63 @@
         <configuration>
           <filesets>
             <fileset>
-              <directory>${silverpeas.home}/silverpeas/repository</directory>
+              <directory>${silverpeas.home}/repository</directory>
               <includes>
                 <include>**/**</include>
               </includes>
               <followSymlinks>false</followSymlinks>
             </fileset>
             <fileset>
-              <directory>${silverpeas.home}/silverpeas/silvertrace</directory>
+              <directory>${silverpeas.home}/silvertrace</directory>
               <includes>
                 <include>**/**</include>
               </includes>
               <followSymlinks>false</followSymlinks>
             </fileset>
             <fileset>
-              <directory>${silverpeas.home}/silverpeas/properties</directory>
+              <directory>${silverpeas.home}/properties</directory>
               <includes>
                 <include>**/**</include>
               </includes>
               <followSymlinks>false</followSymlinks>
             </fileset>
             <fileset>
-              <directory>${silverpeas.home}/silverpeas/initialize</directory>
+              <directory>${silverpeas.home}/initialize</directory>
               <includes>
                 <include>**/**</include>
               </includes>
               <followSymlinks>false</followSymlinks>
             </fileset>
             <fileset>
-              <directory>${silverpeas.home}/silverpeas/dbRepository</directory>
+              <directory>${silverpeas.home}/dbRepository</directory>
               <includes>
                 <include>**/**</include>
               </includes>
               <followSymlinks>false</followSymlinks>
             </fileset>
             <fileset>
-              <directory>${silverpeas.home}/silverpeas/data/portlets</directory>
+              <directory>${silverpeas.home}/data/portlets</directory>
               <includes>
                 <include>**/**</include>
               </includes>
               <followSymlinks>false</followSymlinks>
             </fileset>
             <fileset>
-              <directory>${silverpeas.home}/silverpeas/jar</directory>
+              <directory>${silverpeas.home}/jar</directory>
               <includes>
                 <include>**/**</include>
               </includes>
               <followSymlinks>false</followSymlinks>
             </fileset>
             <fileset>
-              <directory>${silverpeas.home}/silverpeas/xmlcomponents</directory>
+              <directory>${silverpeas.home}/xmlcomponents</directory>
               <includes>
                 <include>**/**</include>
               </includes>
               <followSymlinks>false</followSymlinks>
             </fileset>
             <fileset>
-              <directory>${silverpeas.home}/silverpeas/log</directory>
+              <directory>${silverpeas.home}/log</directory>
               <includes>
                 <include>*.log</include>
               </includes>
