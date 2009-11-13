@@ -9,6 +9,17 @@
     <relativePath>../parent/pom.xml</relativePath>
   </parent>
 
+  <repositories>
+    <repository>
+      <id>NexusSilverpeas</id>
+      <layout>default</layout>
+      <name>Silverpeas Repository</name>
+      <url>http://repository.silverpeas.org/nexus/content/groups/silverpeas</url>
+      <releases><enabled>true</enabled></releases>
+      <snapshots><enabled>true</enabled></snapshots>
+    </repository>
+  </repositories>
+
   <packaging>pom</packaging>
   <groupId>com.silverpeas</groupId>
   <artifactId>assembly-silverpeas</artifactId>
