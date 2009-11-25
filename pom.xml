@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.silverpeas</groupId>
@@ -26,7 +26,7 @@
   <version>1.0-SNAPSHOT</version>
   <name>Assembly Silverpeas</name>
   <dependencies>
-  
+
     <!-- Component NewsEdito -->
     <dependency>
       <groupId>com.silverpeas.components.newsedito</groupId>
@@ -45,7 +45,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
- 
+
     <!-- Component Gallery -->
     <dependency>
       <groupId>com.silverpeas.components.gallery</groupId>
@@ -70,7 +70,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component Survey -->
     <dependency>
       <groupId>com.silverpeas.components.survey</groupId>
@@ -89,7 +89,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component Blog -->
     <dependency>
       <groupId>com.silverpeas.components.blog</groupId>
@@ -114,7 +114,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component Forums -->
     <dependency>
       <groupId>com.silverpeas.components.forums</groupId>
@@ -139,7 +139,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component Hyperlink -->
     <dependency>
       <groupId>com.silverpeas.components.hyperlink</groupId>
@@ -158,7 +158,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component Quickinfo -->
     <dependency>
       <groupId>com.silverpeas.components.quickinfo</groupId>
@@ -177,7 +177,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component Quizz -->
     <dependency>
       <groupId>com.silverpeas.components.quizz</groupId>
@@ -196,7 +196,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component JDBC Connector -->
     <dependency>
       <groupId>com.silverpeas.components.jdbc-connector</groupId>
@@ -221,7 +221,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component RSS Aggregator -->
     <dependency>
       <groupId>com.silverpeas.components.rssaggregator</groupId>
@@ -240,7 +240,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component MyDB -->
     <dependency>
       <groupId>com.silverpeas.components.mydb</groupId>
@@ -265,7 +265,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component Project Manager -->
     <dependency>
       <groupId>com.silverpeas.components.project-manager</groupId>
@@ -290,7 +290,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component Web Sites -->
     <dependency>
       <groupId>com.silverpeas.components.websites</groupId>
@@ -315,7 +315,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component Whitepages -->
     <dependency>
       <groupId>com.silverpeas.components.whitepages</groupId>
@@ -334,7 +334,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component QuestionReply -->
     <dependency>
       <groupId>com.silverpeas.components.question-reply</groupId>
@@ -353,7 +353,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component WebPages -->
     <dependency>
       <groupId>com.silverpeas.components.webpages</groupId>
@@ -372,7 +372,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component Chat -->
     <dependency>
       <groupId>com.silverpeas.components.chat</groupId>
@@ -391,7 +391,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component Mailinglist -->
     <dependency>
       <groupId>com.silverpeas.components.mailinglist</groupId>
@@ -410,7 +410,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component InfoLetter -->
     <dependency>
       <groupId>com.silverpeas.components.infoletter</groupId>
@@ -429,7 +429,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component Wiki -->
     <dependency>
       <groupId>com.silverpeas.components.wiki</groupId>
@@ -448,7 +448,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component Kmelia -->
     <dependency>
       <groupId>com.silverpeas.components.kmelia</groupId>
@@ -473,7 +473,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component Almanach -->
     <dependency>
       <groupId>com.silverpeas.components.almanach</groupId>
@@ -498,7 +498,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component Yellow Pages -->
     <dependency>
       <groupId>com.silverpeas.components.yellowpages</groupId>
@@ -523,7 +523,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <!-- Component Silver Crawler -->
     <dependency>
       <groupId>com.silverpeas.components.silvercrawler</groupId>
@@ -542,8 +542,8 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
-     <!-- Component Resources Manager -->
+
+    <!-- Component Resources Manager -->
     <dependency>
       <groupId>com.silverpeas.components.resources-manager</groupId>
       <artifactId>resources-manager-war</artifactId>
@@ -567,8 +567,8 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
-     <!-- Component Process Manager -->
+
+    <!-- Component Process Manager -->
     <dependency>
       <groupId>com.silverpeas.components.process-manager</groupId>
       <artifactId>process-manager-war</artifactId>
@@ -592,7 +592,7 @@
       <version>1.0-SNAPSHOT</version>
       <classifier>configuration</classifier>
     </dependency>
-    
+
     <dependency>
       <groupId>com.silverpeas.core</groupId>
       <artifactId>lib-core</artifactId>
@@ -829,7 +829,7 @@
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
-    
+
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-log4j12</artifactId>
@@ -854,7 +854,7 @@
         </dependencies>
         <executions>
           <execution>
-            <id>manage-configuration</id>
+            <id>manage-repository</id>
             <phase>package</phase>
             <goals>
               <goal>single</goal>
@@ -862,13 +862,34 @@
             <configuration>
               <descriptors>
                 <descriptor>assemblies/assembly-repository.xml</descriptor>
-                <descriptor>assemblies/assembly-configuration.xml</descriptor>
               </descriptors>
               <appendAssemblyId>false</appendAssemblyId>
               <attach>false</attach>
               <skipAssembly>false</skipAssembly>
-              <finalName>silverpeas</finalName>
-              <outputDirectory>${silverpeas.home}/../</outputDirectory>
+              <finalName>repository</finalName>
+              <outputDirectory>${silverpeas.home}</outputDirectory>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>manage-configuration</id>
+            <phase>process-sources</phase>
+            <goals>
+              <goal>unpack-dependencies</goal>
+            </goals>
+            <configuration>
+              <classifier>configuration</classifier>
+              <type>jar</type>
+              <includeClassifiers>configuration</includeClassifiers>
+              <excludeClassifiers>client,source,javadoc,,</excludeClassifiers>
+              <excludeTypes>ejb,war</excludeTypes>
+              <overWrite>true</overWrite>
+              <outputDirectory>${silverpeas.home}</outputDirectory>
+              <failOnMissingClassifierArtifact>false</failOnMissingClassifierArtifact>
             </configuration>
           </execution>
         </executions>
