@@ -829,6 +829,28 @@
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
+    <dependency>
+      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <artifactId>admin</artifactId>
+      <version>${core.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <artifactId>admin</artifactId>
+      <version>${core.version}</version>
+      <classifier>client</classifier>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <artifactId>authentication</artifactId>
+      <version>${core.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <artifactId>authentication</artifactId>
+      <version>${core.version}</version>
+      <classifier>client</classifier>
+    </dependency>
 
     <dependency>
       <groupId>org.slf4j</groupId>
