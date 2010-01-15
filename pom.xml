@@ -876,6 +876,11 @@
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
+	<dependency>
+      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <artifactId>importExport</artifactId>
+      <version>${core.version}</version>
+    </dependency>
 
     <dependency>
       <groupId>org.slf4j</groupId>
