@@ -32,8 +32,8 @@
   <name>Assembly Silverpeas</name>
 
   <properties>
-    <core.version>1.0-RC2-SNAPSHOT</core.version>
-    <components.version>1.0-RC2-SNAPSHOT</components.version>
+    <core.version>1.0-RC2</core.version>
+    <components.version>1.0-RC2</components.version>
   </properties>
 
   <dependencies>
