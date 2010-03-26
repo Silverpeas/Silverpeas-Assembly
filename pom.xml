@@ -8,9 +8,9 @@
   </parent>
   
     <scm>
-    <connection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/assembly-silverpeas/tags/assembly-silverpeas-1.0-RC3</connection>
-    <developerConnection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/assembly-silverpeas/tags/assembly-silverpeas-1.0-RC3</developerConnection>
-    <url>https://repository.silverpeas.org/svn/silverpeas/assembly-silverpeas/tags/assembly-silverpeas-1.0-RC3</url>
+    <connection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/assembly-silverpeas/trunk</connection>
+    <developerConnection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/assembly-silverpeas/trunk</developerConnection>
+    <url>https://repository.silverpeas.org/svn/silverpeas/assembly-silverpeas/trunk/</url>
   </scm>
 
   <repositories>
@@ -27,7 +27,7 @@
   <packaging>pom</packaging>
   <groupId>com.silverpeas</groupId>
   <artifactId>assembly-silverpeas</artifactId>
-  <version>1.0-RC3</version>
+  <version>5.0-SNAPSHOT</version>
   <name>Assembly Silverpeas</name>
 
   <properties>
