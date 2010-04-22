@@ -974,11 +974,16 @@
               </includes>
               <followSymlinks>false</followSymlinks>
             </fileset>
-            <fileset>
+            <fileset> 
               <directory>${silverpeas.home}/properties</directory>
               <includes>
                 <include>**/**</include>
               </includes>
+              <excludes>
+                <exclude>com/stratelia/silverpeas/authentication/*.*</exclude>
+                <exclude>com/stratelia/silverpeas/domains/**/*.*</exclude>
+                <exclude>com/stratelia/webactiv/util/viewGenerator/settings/*.*</exclude>
+              </excludes>
               <followSymlinks>false</followSymlinks>
             </fileset>
             <fileset>
