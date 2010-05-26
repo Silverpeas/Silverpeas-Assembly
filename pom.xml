@@ -9,7 +9,7 @@
   
     <scm>
     <connection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/assembly-silverpeas/branches/assembly-silverpeas-5.1.1</connection>
-    <developerConnection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/assembly-silverpeas/branchess/assembly-silverpeas-5.1.1</developerConnection>
+    <developerConnection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/assembly-silverpeas/branches/assembly-silverpeas-5.1.1</developerConnection>
     <url>https://repository.silverpeas.org/svn/silverpeas/assembly-silverpeas/branches/assembly-silverpeas-5.1.1</url>
   </scm>
 
@@ -968,6 +968,11 @@
               <includes>
                 <include>**/**</include>
               </includes>
+              <excludes>
+                <exclude>com/stratelia/silverpeas/authentication/*.*</exclude>
+                <exclude>com/stratelia/silverpeas/domains/**/*.*</exclude>
+                <exclude>com/stratelia/webactiv/util/viewGenerator/settings/*.*</exclude>
+              </excludes>
               <followSymlinks>false</followSymlinks>
             </fileset>
             <fileset>
