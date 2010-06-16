@@ -628,6 +628,25 @@
       <classifier>configuration</classifier>
     </dependency>
 
+	<!-- Component FormsOnline -->
+    <dependency>
+      <groupId>com.silverpeas.components.formsonline</groupId>
+      <artifactId>formsonline-war</artifactId>
+      <type>war</type>
+      <version>${components.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.formsonline</groupId>
+      <artifactId>formsonline-jar</artifactId>
+      <version>${components.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.formsonline</groupId>
+      <artifactId>formsonline-config</artifactId>
+      <version>${components.version}</version>
+      <classifier>configuration</classifier>
+    </dependency>
+
     <dependency>
       <groupId>com.silverpeas.core</groupId>
       <artifactId>lib-core</artifactId>
