@@ -4,10 +4,10 @@
   <parent>
     <groupId>com.silverpeas</groupId>
     <artifactId>parent</artifactId>
-    <version>11</version>
+    <version>12</version>
   </parent>
   
-    <scm>
+  <scm>
     <connection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/assembly-silverpeas/trunk</connection>
     <developerConnection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/assembly-silverpeas/trunk</developerConnection>
     <url>https://repository.silverpeas.org/svn/silverpeas/assembly-silverpeas/trunk</url>
@@ -19,8 +19,12 @@
       <layout>default</layout>
       <name>Silverpeas Repository</name>
       <url>http://repository.silverpeas.org/nexus/content/groups/silverpeas</url>
-      <releases><enabled>true</enabled></releases>
-      <snapshots><enabled>true</enabled></snapshots>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
     </repository>
   </repositories>
 
@@ -894,7 +898,7 @@
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
-	<dependency>
+    <dependency>
       <groupId>com.silverpeas.core.ejb-core</groupId>
       <artifactId>importExport</artifactId>
       <version>${core.version}</version>
@@ -907,6 +911,10 @@
     <dependency>
       <groupId>javax.mail</groupId>
       <artifactId>mail</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>net.sourceforge.jtds</groupId>
+      <artifactId>jtds</artifactId>
     </dependency>
   </dependencies>
 
