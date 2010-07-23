@@ -4,7 +4,7 @@
   <parent>
     <groupId>com.silverpeas</groupId>
     <artifactId>parent</artifactId>
-    <version>12</version>
+    <version>13-SNAPSHOT</version>
   </parent>
   
   <scm>
@@ -18,7 +18,7 @@
       <id>NexusSilverpeas</id>
       <layout>default</layout>
       <name>Silverpeas Repository</name>
-      <url>http://repository.silverpeas.org/nexus/content/groups/silverpeas</url>
+      <url>http://www.silverpeas.org/nexus/content/groups/silverpeas</url>
       <releases>
         <enabled>true</enabled>
       </releases>
@@ -1044,6 +1044,13 @@
               <directory>${silverpeas.home}/log</directory>
               <includes>
                 <include>*.log</include>
+              </includes>
+              <followSymlinks>false</followSymlinks>
+            </fileset>
+            <fileset>
+              <directory>${silverpeas.home}/resources/StringTemplates</directory>
+              <includes>
+                <include>**/**</include>
               </includes>
               <followSymlinks>false</followSymlinks>
             </fileset>
