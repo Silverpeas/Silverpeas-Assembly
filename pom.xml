@@ -1038,6 +1038,9 @@
               <includes>
                 <include>**/**</include>
               </includes>
+              <excludes>
+                <exclude>workflows/*.*</exclude>
+              </excludes>
               <followSymlinks>false</followSymlinks>
             </fileset>
             <fileset>
