@@ -8,9 +8,9 @@
   </parent>
   
   <scm>
-    <connection>scm:svn:https://www.silverpeas.org/svn/silverpeas/assembly-silverpeas/branches/assembly-silverpeas-5.2.x</connection>
-    <developerConnection>scm:svn:https://www.silverpeas.org/svn/silverpeas/assembly-silverpeas/branches/assembly-silverpeas-5.2.x</developerConnection>
-    <url>https://www.silverpeas.org/svn/silverpeas/assembly-silverpeas/tags/assembly-silverpeas-5.2</url>
+    <connection>scm:svn:https://www.silverpeas.org/svn/silverpeas/assembly-silverpeas/tags/assembly-silverpeas-5.2.2</connection>
+    <developerConnection>scm:svn:https://www.silverpeas.org/svn/silverpeas/assembly-silverpeas/tags/assembly-silverpeas-5.2.2</developerConnection>
+    <url>https://www.silverpeas.org/svn/silverpeas/assembly-silverpeas/tags/assembly-silverpeas-5.2.2</url>
   </scm>
 
   <repositories>
@@ -31,7 +31,7 @@
   <packaging>pom</packaging>
   <groupId>com.silverpeas</groupId>
   <artifactId>assembly-silverpeas</artifactId>
-  <version>5.2.2-SNAPSHOT</version>
+  <version>5.2.2</version>
   <name>Assembly Silverpeas</name>
 
   <properties>
