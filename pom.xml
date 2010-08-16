@@ -10,7 +10,7 @@
   <scm>
     <connection>scm:svn:https://www.silverpeas.org/svn/silverpeas/assembly-silverpeas/branches/assembly-silverpeas-5.2.x</connection>
     <developerConnection>scm:svn:https://www.silverpeas.org/svn/silverpeas/assembly-silverpeas/branches/assembly-silverpeas-5.2.x</developerConnection>
-    <url>https://repository.silverpeas.org/svn/silverpeas/assembly-silverpeas/tags/assembly-silverpeas-5.2</url>
+    <url>https://www.silverpeas.org/svn/silverpeas/assembly-silverpeas/tags/assembly-silverpeas-5.2</url>
   </scm>
 
   <repositories>
@@ -18,7 +18,7 @@
       <id>NexusSilverpeas</id>
       <layout>default</layout>
       <name>Silverpeas Repository</name>
-      <url>http://repository.silverpeas.org/nexus/content/groups/silverpeas</url>
+      <url>http://www.silverpeas.org/nexus/content/groups/silverpeas</url>
       <releases>
         <enabled>true</enabled>
       </releases>
@@ -35,8 +35,8 @@
   <name>Assembly Silverpeas</name>
 
   <properties>
-    <core.version>5.2.1</core.version>
-    <components.version>5.2.1</components.version>
+    <core.version>5.2.2-SNAPSHOT</core.version>
+    <components.version>5.2.2-SNAPSHOT</components.version>
     <assembly.version>1.1</assembly.version>
   </properties>
 
