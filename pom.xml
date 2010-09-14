@@ -4,7 +4,7 @@
   <parent>
     <groupId>com.silverpeas</groupId>
     <artifactId>parent</artifactId>
-    <version>13-SNAPSHOT</version>
+    <version>14</version>
   </parent>
   
   <scm>
@@ -963,7 +963,7 @@
               <classifier>configuration</classifier>
               <type>jar</type>
               <includeClassifiers>configuration</includeClassifiers>
-              <excludeClassifiers>client,source,javadoc,,</excludeClassifiers>
+              <excludeClassifiers>client,source,javadoc</excludeClassifiers>
               <excludeTypes>ejb,war</excludeTypes>
               <overWrite>true</overWrite>
               <outputDirectory>${silverpeas.home}</outputDirectory>
