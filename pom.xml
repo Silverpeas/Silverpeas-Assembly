@@ -651,6 +651,25 @@
       <classifier>configuration</classifier>
     </dependency>
 
+    <!-- Component Schedule Event -->
+    <dependency>
+      <groupId>com.silverpeas.components.scheduleevent</groupId>
+      <artifactId>scheduleevent-war</artifactId>
+      <type>war</type>
+      <version>${components.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.scheduleevent</groupId>
+      <artifactId>scheduleevent-jar</artifactId>
+      <version>${components.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.scheduleevent</groupId>
+      <artifactId>scheduleevent-config</artifactId>
+      <version>${components.version}</version>
+      <classifier>configuration</classifier>
+    </dependency>
+
     <dependency>
       <groupId>com.silverpeas.core</groupId>
       <artifactId>lib-core</artifactId>
