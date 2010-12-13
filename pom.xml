@@ -825,12 +825,6 @@
     </dependency>
     <dependency>
       <groupId>com.silverpeas.core.ejb-core</groupId>
-      <artifactId>comment</artifactId>
-      <version>${core.version}</version>
-      <classifier>client</classifier>
-    </dependency>
-    <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
       <artifactId>statistic</artifactId>
       <version>${core.version}</version>
     </dependency>
