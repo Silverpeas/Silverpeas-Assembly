@@ -27,6 +27,22 @@
       </snapshots>
     </repository>
   </repositories>
+  
+   <pluginRepositories>
+    <pluginRepository>
+      <id>Silverpeas</id>
+      <layout>default</layout>
+      <name>Silverpeas Repository</name>
+      <url>http://www.silverpeas.org/nexus/content/groups/silverpeas</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
+
 
   <packaging>pom</packaging>
   <groupId>com.silverpeas</groupId>
