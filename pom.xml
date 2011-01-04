@@ -27,7 +27,7 @@
       </snapshots>
     </repository>
   </repositories>
-  
+
    <pluginRepositories>
     <pluginRepository>
       <id>Silverpeas</id>
@@ -53,7 +53,7 @@
   <properties>
     <core.version>5.5-SNAPSHOT</core.version>
     <components.version>5.5-SNAPSHOT</components.version>
-    <assembly.version>1.1</assembly.version>
+    <assembly.version>1.2-SNAPSHOT</assembly.version>
   </properties>
 
   <dependencies>
