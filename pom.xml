@@ -53,7 +53,7 @@
   <properties>
     <core.version>5.5-SNAPSHOT</core.version>
     <components.version>5.5-SNAPSHOT</components.version>
-    <assembly.version>1.2-SNAPSHOT</assembly.version>
+    <assembly.version>1.2</assembly.version>
   </properties>
 
   <dependencies>
