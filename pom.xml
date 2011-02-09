@@ -8,9 +8,9 @@
   </parent>
 
   <scm>
-    <connection>scm:svn:https://www.silverpeas.org/svn/silverpeas/assembly-silverpeas/tags/assembly-silverpeas-5.5</connection>
-    <developerConnection>scm:svn:https://www.silverpeas.org/svn/silverpeas/assembly-silverpeas/tags/assembly-silverpeas-5.5</developerConnection>
-    <url>https://www.silverpeas.org/svn/silverpeas/assembly-silverpeas/tags/assembly-silverpeas-5.5</url>
+    <connection>scm:git:git@github.com:Silverpeas/Assembly-Silverpeas.git</connection>
+    <developerConnection>scm:git:git@github.com:Silverpeas/Assembly-Silverpeas.git</developerConnection>
+    <url>http://gitub.com/Silverpeas/Assembly-Silverpeas.git</url>
   </scm>
 
   <repositories>
