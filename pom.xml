@@ -4,13 +4,13 @@
   <parent>
     <groupId>com.silverpeas</groupId>
     <artifactId>parent</artifactId>
-    <version>11</version>
+    <version>18-SNAPSHOT</version>
   </parent>
-  
-    <scm>
-    <connection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/assembly-silverpeas/branches/assembly-silverpeas-5.1.1</connection>
-    <developerConnection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/assembly-silverpeas/branches/assembly-silverpeas-5.1.1</developerConnection>
-    <url>https://repository.silverpeas.org/svn/silverpeas/assembly-silverpeas/branches/assembly-silverpeas-5.1.1</url>
+
+  <scm>
+    <connection>scm:svn:https://www.silverpeas.org/svn/silverpeas/assembly-silverpeas/trunk</connection>
+    <developerConnection>scm:svn:https://www.silverpeas.org/svn/silverpeas/assembly-silverpeas/trunk</developerConnection>
+    <url>https://www.silverpeas.org/svn/silverpeas/assembly-silverpeas/trunk</url>
   </scm>
 
   <repositories>
@@ -18,22 +18,42 @@
       <id>NexusSilverpeas</id>
       <layout>default</layout>
       <name>Silverpeas Repository</name>
-      <url>http://repository.silverpeas.org/nexus/content/groups/silverpeas</url>
-      <releases><enabled>true</enabled></releases>
-      <snapshots><enabled>true</enabled></snapshots>
+      <url>http://www.silverpeas.org/nexus/content/groups/silverpeas</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
     </repository>
   </repositories>
+
+   <pluginRepositories>
+    <pluginRepository>
+      <id>Silverpeas</id>
+      <layout>default</layout>
+      <name>Silverpeas Repository</name>
+      <url>http://www.silverpeas.org/nexus/content/groups/silverpeas</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
+
 
   <packaging>pom</packaging>
   <groupId>com.silverpeas</groupId>
   <artifactId>assembly-silverpeas</artifactId>
-  <version>5.1.5-SNAPSHOT</version>
+  <version>5.6-SNAPSHOT</version>
   <name>Assembly Silverpeas</name>
 
   <properties>
-    <core.version>5.1.4</core.version>
-    <components.version>5.1.4</components.version>
-    <assembly.version>1.1</assembly.version>
+    <core.version>5.6-SNAPSHOT</core.version>
+    <components.version>5.6-SNAPSHOT</components.version>
+    <assembly.version>1.2</assembly.version>
   </properties>
 
   <dependencies>
@@ -628,6 +648,44 @@
       <classifier>configuration</classifier>
     </dependency>
 
+	<!-- Component FormsOnline -->
+    <dependency>
+      <groupId>com.silverpeas.components.formsonline</groupId>
+      <artifactId>formsonline-war</artifactId>
+      <type>war</type>
+      <version>${components.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.formsonline</groupId>
+      <artifactId>formsonline-jar</artifactId>
+      <version>${components.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.formsonline</groupId>
+      <artifactId>formsonline-config</artifactId>
+      <version>${components.version}</version>
+      <classifier>configuration</classifier>
+    </dependency>
+
+    <!-- Component Schedule Event -->
+    <dependency>
+      <groupId>com.silverpeas.components.scheduleevent</groupId>
+      <artifactId>scheduleevent-war</artifactId>
+      <type>war</type>
+      <version>${components.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.scheduleevent</groupId>
+      <artifactId>scheduleevent-jar</artifactId>
+      <version>${components.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.scheduleevent</groupId>
+      <artifactId>scheduleevent-config</artifactId>
+      <version>${components.version}</version>
+      <classifier>configuration</classifier>
+    </dependency>
+
     <dependency>
       <groupId>com.silverpeas.core</groupId>
       <artifactId>lib-core</artifactId>
@@ -783,12 +841,6 @@
     </dependency>
     <dependency>
       <groupId>com.silverpeas.core.ejb-core</groupId>
-      <artifactId>comment</artifactId>
-      <version>${core.version}</version>
-      <classifier>client</classifier>
-    </dependency>
-    <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
       <artifactId>statistic</artifactId>
       <version>${core.version}</version>
     </dependency>
@@ -875,7 +927,7 @@
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
-	<dependency>
+    <dependency>
       <groupId>com.silverpeas.core.ejb-core</groupId>
       <artifactId>importExport</artifactId>
       <version>${core.version}</version>
@@ -888,6 +940,10 @@
     <dependency>
       <groupId>javax.mail</groupId>
       <artifactId>mail</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>net.sourceforge.jtds</groupId>
+      <artifactId>jtds</artifactId>
     </dependency>
   </dependencies>
 
@@ -936,7 +992,7 @@
               <classifier>configuration</classifier>
               <type>jar</type>
               <includeClassifiers>configuration</includeClassifiers>
-              <excludeClassifiers>client,source,javadoc,,</excludeClassifiers>
+              <excludeClassifiers>client,source,javadoc</excludeClassifiers>
               <excludeTypes>ejb,war</excludeTypes>
               <overWrite>true</overWrite>
               <outputDirectory>${silverpeas.home}</outputDirectory>
@@ -994,6 +1050,9 @@
               <includes>
                 <include>**/**</include>
               </includes>
+              <excludes>
+                <exclude>data/*.xml</exclude>
+              </excludes>
               <followSymlinks>false</followSymlinks>
             </fileset>
             <fileset>
@@ -1008,6 +1067,9 @@
               <includes>
                 <include>**/**</include>
               </includes>
+              <excludes>
+                <exclude>workflows/*.*</exclude>
+              </excludes>
               <followSymlinks>false</followSymlinks>
             </fileset>
             <fileset>
@@ -1017,10 +1079,17 @@
               </includes>
               <followSymlinks>false</followSymlinks>
             </fileset>
+            <fileset>
+              <directory>${silverpeas.home}/resources/StringTemplates</directory>
+              <includes>
+                <include>**/**</include>
+              </includes>
+              <followSymlinks>false</followSymlinks>
+            </fileset>
           </filesets>
         </configuration>
       </plugin>
     </plugins>
   </build>
-  
+
 </project>
