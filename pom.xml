@@ -4,7 +4,7 @@
   <parent>
     <groupId>com.silverpeas</groupId>
     <artifactId>parent</artifactId>
-    <version>18-SNAPSHOT</version>
+    <version>19-SNAPSHOT</version>
   </parent>
 
   <scm>
@@ -53,7 +53,7 @@
   <properties>
     <core.version>5.6-SNAPSHOT</core.version>
     <components.version>5.6-SNAPSHOT</components.version>
-    <assembly.version>1.2</assembly.version>
+    <assembly.version>1.3-SNAPSHOT</assembly.version>
   </properties>
 
   <dependencies>
@@ -734,12 +734,6 @@
       <groupId>com.silverpeas.core.ejb-core</groupId>
       <artifactId>personalization</artifactId>
       <version>${core.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
-      <artifactId>personalization</artifactId>
-      <version>${core.version}</version>
-      <classifier>client</classifier>
     </dependency>
     <dependency>
       <groupId>com.silverpeas.core.ejb-core</groupId>
