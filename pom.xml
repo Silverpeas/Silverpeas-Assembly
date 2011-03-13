@@ -51,8 +51,8 @@
   <name>Assembly Silverpeas</name>
 
   <properties>
-    <core.version>5.5.1</core.version>
-    <components.version>5.5.1</components.version>
+    <core.version>5.5.3</core.version>
+    <components.version>5.5.3</components.version>
     <assembly.version>1.2</assembly.version>
   </properties>
 
