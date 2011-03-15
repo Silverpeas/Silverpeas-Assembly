@@ -967,9 +967,9 @@
               <goal>single</goal>
             </goals>
             <configuration>
-              <descriptors>
-                <descriptor>assemblies/assembly-repository.xml</descriptor>
-              </descriptors>
+              <descriptorRefs>
+                <descriptorRef>assembly-repository</descriptorRef>
+              </descriptorRefs>
               <appendAssemblyId>false</appendAssemblyId>
               <attach>false</attach>
               <skipAssembly>false</skipAssembly>
