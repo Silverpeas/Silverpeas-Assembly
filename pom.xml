@@ -10,7 +10,7 @@
   <scm>
     <connection>scm:git:git@github.com:Silverpeas/Assembly-Silverpeas.git</connection>
     <developerConnection>scm:git:git@github.com:Silverpeas/Assembly-Silverpeas.git</developerConnection>
-    <url>http://gitub.com/Silverpeas/Assembly-Silverpeas.git</url>
+    <url>http://github.com/Silverpeas/Assembly-Silverpeas.git</url>
   </scm>
 
   <repositories>
@@ -51,8 +51,8 @@
   <name>Assembly Silverpeas</name>
 
   <properties>
-    <core.version>5.5.4</core.version>
-    <components.version>5.5.4</components.version>
+    <core.version>5.5.5</core.version>
+    <components.version>5.5.5</components.version>
     <assembly.version>1.2</assembly.version>
   </properties>
 
