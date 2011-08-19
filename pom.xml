@@ -4,7 +4,7 @@
   <parent>
     <groupId>com.silverpeas</groupId>
     <artifactId>parent</artifactId>
-    <version>20-SNAPSHOT</version>
+    <version>20</version>
   </parent>
 
   <scm>
@@ -15,7 +15,7 @@
 
   <repositories>
     <repository>
-      <id>NexusSilverpeas</id>
+      <id>Silverpeas</id>
       <layout>default</layout>
       <name>Silverpeas Repository</name>
       <url>http://www.silverpeas.org/nexus/content/groups/silverpeas</url>
@@ -51,8 +51,8 @@
   <name>Assembly Silverpeas</name>
 
   <properties>
-    <core.version>5.7-SNAPSHOT</core.version>
-    <components.version>5.7-SNAPSHOT</components.version>
+    <core.version>5.7</core.version>
+    <components.version>5.7</components.version>
     <assembly.version>1.3</assembly.version>
   </properties>
 
