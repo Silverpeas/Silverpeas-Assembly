@@ -153,12 +153,6 @@
     </dependency>
     <dependency>
       <groupId>com.silverpeas.components.blog</groupId>
-      <artifactId>blog-ejb</artifactId>
-      <version>${components.version}</version>
-      <classifier>client</classifier>
-    </dependency>
-    <dependency>
-      <groupId>com.silverpeas.components.blog</groupId>
       <artifactId>blog-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -651,14 +645,8 @@
     </dependency>
     <dependency>
       <groupId>com.silverpeas.components.classifieds</groupId>
-      <artifactId>classifieds-ejb</artifactId>
+      <artifactId>classifieds-jar</artifactId>
       <version>${components.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.silverpeas.components.classifieds</groupId>
-      <artifactId>classifieds-ejb</artifactId>
-      <version>${components.version}</version>
-      <classifier>client</classifier>
     </dependency>
     <dependency>
       <groupId>com.silverpeas.components.classifieds</groupId>
