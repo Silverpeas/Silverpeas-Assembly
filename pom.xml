@@ -148,7 +148,7 @@
     </dependency>
     <dependency>
       <groupId>com.silverpeas.components.blog</groupId>
-      <artifactId>blog-ejb</artifactId>
+      <artifactId>blog-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
