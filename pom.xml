@@ -47,7 +47,7 @@
   <packaging>pom</packaging>
   <groupId>com.silverpeas</groupId>
   <artifactId>assembly-silverpeas</artifactId>
-  <version>5.7.3</version>
+  <version>5.7.4-SNAPSHOT</version>
   <name>Assembly Silverpeas</name>
 
   <properties>
