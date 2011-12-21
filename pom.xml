@@ -4,7 +4,7 @@
   <parent>
     <groupId>com.silverpeas</groupId>
     <artifactId>parent</artifactId>
-    <version>21-SNAPSHOT</version>
+    <version>21</version>
   </parent>
 
   <scm>
@@ -51,9 +51,9 @@
   <name>Assembly Silverpeas</name>
 
   <properties>
-    <core.version>5.8-SNAPSHOT</core.version>
-    <components.version>5.8-SNAPSHOT</components.version>
-    <assembly.version>1.4-SNAPSHOT</assembly.version>
+    <core.version>5.8</core.version>
+    <components.version>5.8</components.version>
+    <assembly.version>1.4</assembly.version>
   </properties>
 
   <dependencies>
