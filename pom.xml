@@ -595,14 +595,8 @@
     </dependency>
     <dependency>
       <groupId>com.silverpeas.components.resources-manager</groupId>
-      <artifactId>resources-manager-ejb</artifactId>
+      <artifactId>resources-manager-jar</artifactId>
       <version>${components.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.silverpeas.components.resources-manager</groupId>
-      <artifactId>resources-manager-ejb</artifactId>
-      <version>${components.version}</version>
-      <classifier>client</classifier>
     </dependency>
     <dependency>
       <groupId>com.silverpeas.components.resources-manager</groupId>
