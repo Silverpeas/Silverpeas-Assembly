@@ -491,6 +491,26 @@
       <version>${components.version}</version>
       <classifier>configuration</classifier>
     </dependency>
+    
+     <!-- Component Delegatednews -->
+    <dependency>
+		<groupId>com.silverpeas.components.delegatednews</groupId>
+		<artifactId>delegatednews-war</artifactId>
+		<type>war</type>
+		<version>${components.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>com.silverpeas.components.delegatednews</groupId>
+		<artifactId>delegatednews-jar</artifactId>
+		<type>jar</type>
+		<version>${components.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>com.silverpeas.components.delegatednews</groupId>
+		<artifactId>delegatednews-config</artifactId>
+		<classifier>configuration</classifier>
+		<version>${components.version}</version>
+	</dependency>
 
     <!-- Component Kmelia -->
     <dependency>
