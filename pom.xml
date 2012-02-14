@@ -47,12 +47,12 @@
   <packaging>pom</packaging>
   <groupId>com.silverpeas</groupId>
   <artifactId>assembly-silverpeas</artifactId>
-  <version>5.8</version>
+  <version>5.8.1-SNAPSHOT</version>
   <name>Assembly Silverpeas</name>
 
   <properties>
-    <core.version>5.8</core.version>
-    <components.version>5.8</components.version>
+    <core.version>5.8.1-SNAPSHOT</core.version>
+    <components.version>5.8.1-SNAPSHOT</components.version>
     <assembly.version>1.4</assembly.version>
   </properties>
 
