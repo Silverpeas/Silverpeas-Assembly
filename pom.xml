@@ -249,14 +249,8 @@
     </dependency>
     <dependency>
       <groupId>com.silverpeas.components.jdbc-connector</groupId>
-      <artifactId>jdbc-connector-ejb</artifactId>
+      <artifactId>jdbc-connector-jar</artifactId>
       <version>${components.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.silverpeas.components.jdbc-connector</groupId>
-      <artifactId>jdbc-connector-ejb</artifactId>
-      <version>${components.version}</version>
-      <classifier>client</classifier>
     </dependency>
     <dependency>
       <groupId>com.silverpeas.components.jdbc-connector</groupId>
