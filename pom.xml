@@ -53,7 +53,7 @@
   <properties>
     <core.version>5.9-SNAPSHOT</core.version>
     <components.version>5.9-SNAPSHOT</components.version>
-    <assembly.version>1.4</assembly.version>
+    <assembly.version>1.5-SNAPSHOT</assembly.version>
   </properties>
 
   <dependencies>
@@ -733,12 +733,6 @@
       <groupId>com.silverpeas.core.ejb-core</groupId>
       <artifactId>searchengine</artifactId>
       <version>${core.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
-      <artifactId>searchengine</artifactId>
-      <version>${core.version}</version>
-      <classifier>client</classifier>
     </dependency>
     <dependency>
       <groupId>com.silverpeas.core.ejb-core</groupId>
