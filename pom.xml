@@ -28,7 +28,7 @@
     </repository>
   </repositories>
 
-   <pluginRepositories>
+  <pluginRepositories>
     <pluginRepository>
       <id>Silverpeas</id>
       <layout>default</layout>
@@ -54,6 +54,8 @@
     <core.version>5.9-SNAPSHOT</core.version>
     <components.version>5.9-SNAPSHOT</components.version>
     <assembly.version>1.5-SNAPSHOT</assembly.version>
+    <silverpeas_datahome>${silverpeas.home}/data</silverpeas_datahome>
+    <silverpeas_home_data>${silverpeas.home}/data</silverpeas_home_data>
   </properties>
 
   <dependencies>
@@ -983,6 +985,36 @@
         </executions>
       </plugin>
       <plugin>
+        <groupId>com.goldin.plugins</groupId>
+        <artifactId>maven-copy-plugin</artifactId>
+        <version>0.2.3.5</version>
+        <executions>
+          <execution>
+            <id>copy-data-configuration</id>
+            <phase>install</phase>
+            <goals>
+              <goal>copy</goal>
+            </goals>
+            <configuration>
+              <runIf>{{silverpeas_datahome != silverpeas_home_data}}</runIf>
+              <resources>
+                  <!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+                  <!-- Copying all XML configs -->
+                  <!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+                <resource> 
+                  <failIfNotFound>true</failIfNotFound>
+                  <targetPath>${silverpeas_datahome}</targetPath>
+                  <directory>../data</directory>                  
+                  <preservePath>true</preservePath>
+                  <mkdir>true</mkdir>
+                  <cleanEmptyDirectories>false</cleanEmptyDirectories>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>         
+        </executions>
+      </plugin>
+      <plugin>
         <artifactId>maven-clean-plugin</artifactId>
         <configuration>
           <filesets>
@@ -1027,7 +1059,7 @@
               <followSymlinks>false</followSymlinks>
             </fileset>
             <fileset>
-              <directory>${silverpeas.home}/data/portlets</directory>
+              <directory>${silverpeas_datahome}/data/portlets</directory>
               <includes>
                 <include>**/**</include>
               </includes>
