@@ -1059,7 +1059,7 @@
               <followSymlinks>false</followSymlinks>
             </fileset>
             <fileset>
-              <directory>${silverpeas_datahome}/data/portlets</directory>
+              <directory>${silverpeas_datahome}/portlets</directory>
               <includes>
                 <include>**/**</include>
               </includes>
