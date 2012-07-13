@@ -11,6 +11,7 @@
     <connection>scm:git:git@github.com:Silverpeas/Assembly-Silverpeas.git</connection>
     <developerConnection>scm:git:git@github.com:Silverpeas/Assembly-Silverpeas.git</developerConnection>
     <url>http://gitub.com/Silverpeas/Assembly-Silverpeas</url>
+    <tag>assembly-silverpeas-5.10</tag>
   </scm>
 
   <repositories>
@@ -47,7 +48,7 @@
   <packaging>pom</packaging>
   <groupId>com.silverpeas</groupId>
   <artifactId>assembly-silverpeas</artifactId>
-  <version>5.10-SNAPSHOT</version>
+  <version>5.10</version>
   <name>Assembly Silverpeas</name>
 
   <properties>
