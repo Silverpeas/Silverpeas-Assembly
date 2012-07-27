@@ -1042,6 +1042,9 @@
                 <exclude>com/stratelia/silverpeas/authentication/*.*</exclude>
                 <exclude>com/stratelia/silverpeas/domains/**/*.*</exclude>
                 <exclude>com/stratelia/webactiv/util/viewGenerator/settings/*.*</exclude>
+                <exclude>org/silverpeas/authentication/*.*</exclude>
+                <exclude>org/silverpeas/domains/**/*.*</exclude>
+                <exclude>org/silverpeas/util/viewGenerator/settings/*.*</exclude>
               </excludes>
               <followSymlinks>false</followSymlinks>
             </fileset>
