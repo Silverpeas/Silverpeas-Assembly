@@ -1005,7 +1005,7 @@
                 <resource> 
                   <failIfNotFound>true</failIfNotFound>
                   <targetPath>${silverpeas_datahome}</targetPath>
-                  <directory>../data</directory>                  
+                  <directory>${silverpeas_home_data}</directory>                  
                   <preservePath>true</preservePath>
                   <mkdir>true</mkdir>
                   <cleanEmptyDirectories>false</cleanEmptyDirectories>
