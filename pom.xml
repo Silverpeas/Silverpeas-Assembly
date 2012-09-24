@@ -1059,16 +1059,6 @@
               <followSymlinks>false</followSymlinks>
             </fileset>
             <fileset>
-              <directory>${silverpeas_datahome}/portlets</directory>
-              <includes>
-                <include>**/**</include>
-              </includes>
-              <excludes>
-                <exclude>data/*.xml</exclude>
-              </excludes>
-              <followSymlinks>false</followSymlinks>
-            </fileset>
-            <fileset>
               <directory>${silverpeas.home}/jar</directory>
               <includes>
                 <include>**/**</include>
