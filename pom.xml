@@ -683,6 +683,25 @@
       <version>${components.version}</version>
       <classifier>configuration</classifier>
     </dependency>
+	
+	<!-- Component Organization Chart -->
+    <dependency>
+      <groupId>com.silverpeas.components.organizationchart</groupId>
+      <artifactId>organizationchart-war</artifactId>
+      <type>war</type>
+      <version>${components.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.organizationchart</groupId>
+      <artifactId>organizationchart-jar</artifactId>
+      <version>${components.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.organizationchart</groupId>
+      <artifactId>organizationchart-config</artifactId>
+      <version>${components.version}</version>
+      <classifier>configuration</classifier>
+    </dependency>
 
     <dependency>
       <groupId>com.silverpeas.core</groupId>
