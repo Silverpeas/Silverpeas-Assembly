@@ -627,7 +627,7 @@
       <classifier>configuration</classifier>
     </dependency>
 
-	<!-- Component Classifieds -->
+    <!-- Component Classifieds -->
     <dependency>
       <groupId>com.silverpeas.components.classifieds</groupId>
       <artifactId>classifieds-war</artifactId>
@@ -646,7 +646,7 @@
       <classifier>configuration</classifier>
     </dependency>
 
-	<!-- Component FormsOnline -->
+    <!-- Component FormsOnline -->
     <dependency>
       <groupId>com.silverpeas.components.formsonline</groupId>
       <artifactId>formsonline-war</artifactId>
@@ -683,8 +683,8 @@
       <version>${components.version}</version>
       <classifier>configuration</classifier>
     </dependency>
-	
-	<!-- Component Organization Chart -->
+
+    <!-- Component Organization Chart -->
     <dependency>
       <groupId>com.silverpeas.components.organizationchart</groupId>
       <artifactId>organizationchart-war</artifactId>
@@ -922,10 +922,6 @@
     </dependency>
 
     <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-log4j12</artifactId>
-    </dependency>
-    <dependency>
       <groupId>javax.mail</groupId>
       <artifactId>mail</artifactId>
     </dependency>
@@ -1007,20 +1003,20 @@
             <configuration>
               <runIf>{{silverpeas_datahome != silverpeas_home_data}}</runIf>
               <resources>
-                  <!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
-                  <!-- Copying all XML configs -->
-                  <!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
-                <resource> 
+                <!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+                <!-- Copying all XML configs -->
+                <!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+                <resource>
                   <failIfNotFound>true</failIfNotFound>
                   <targetPath>${silverpeas_datahome}</targetPath>
-                  <directory>${silverpeas_home_data}</directory>                  
+                  <directory>${silverpeas_home_data}</directory>
                   <preservePath>true</preservePath>
                   <mkdir>true</mkdir>
                   <cleanEmptyDirectories>false</cleanEmptyDirectories>
                 </resource>
               </resources>
             </configuration>
-          </execution>         
+          </execution>
         </executions>
       </plugin>
       <plugin>
