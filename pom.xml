@@ -52,8 +52,8 @@
   <name>Assembly Silverpeas</name>
 
   <properties>
-    <core.version>5.13.3</core.version>
-    <components.version>5.13.3</components.version>
+    <core.version>5.13.4-SNAPSHOT</core.version>
+    <components.version>5.13.4-SNAPSHOT</components.version>
     <assembly.version>1.7</assembly.version>
     <silverpeas_datahome>${silverpeas.home}/data</silverpeas_datahome>
     <silverpeas_home_data>${silverpeas.home}/data</silverpeas_home_data>
