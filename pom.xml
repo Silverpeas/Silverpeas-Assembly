@@ -60,6 +60,24 @@
   </properties>
 
   <dependencies>
+    <!-- Component SuggestionBox -->
+    <dependency>
+      <groupId>com.silverpeas.components.suggestion-box</groupId>
+      <artifactId>suggestion-box-war</artifactId>
+      <type>war</type>
+      <version>${components.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.suggestion-box</groupId>
+      <artifactId>suggestion-box-jar</artifactId>
+      <version>${components.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.suggestion-box</groupId>
+      <artifactId>suggestion-box-config</artifactId>
+      <version>${components.version}</version>
+      <classifier>configuration</classifier>
+    </dependency>
     <!-- Component DelegatedNews -->
     <dependency>
       <groupId>com.silverpeas.components.delegatednews</groupId>
