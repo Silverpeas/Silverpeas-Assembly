@@ -701,6 +701,25 @@
       <version>${components.version}</version>
       <classifier>configuration</classifier>
     </dependency>
+    
+    <!-- Component SpaceMembers -->
+    <dependency>
+      <groupId>com.silverpeas.components.spaceMembers</groupId>
+      <artifactId>spaceMembers-war</artifactId>
+      <type>war</type>
+      <version>${components.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.spaceMembers</groupId>
+      <artifactId>spaceMembers-jar</artifactId>
+      <version>${components.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.silverpeas.components.spaceMembers</groupId>
+      <artifactId>spaceMembers-config</artifactId>
+      <version>${components.version}</version>
+      <classifier>configuration</classifier>
+    </dependency>
 
     <dependency>
       <groupId>com.silverpeas.core</groupId>
