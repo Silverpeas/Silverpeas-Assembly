@@ -97,25 +97,6 @@
       <classifier>configuration</classifier>
     </dependency>
 
-    <!-- Component NewsEdito -->
-    <dependency>
-      <groupId>com.silverpeas.components.newsedito</groupId>
-      <artifactId>newsedito-war</artifactId>
-      <type>war</type>
-      <version>${components.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.silverpeas.components.newsedito</groupId>
-      <artifactId>newsedito-jar</artifactId>
-      <version>${components.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.silverpeas.components.newsedito</groupId>
-      <artifactId>newsedito-config</artifactId>
-      <version>${components.version}</version>
-      <classifier>configuration</classifier>
-    </dependency>
-
     <!-- Component Gallery -->
     <dependency>
       <groupId>com.silverpeas.components.gallery</groupId>
