@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.silverpeas</groupId>
+    <groupId>org.silverpeas</groupId>
     <artifactId>parent</artifactId>
     <version>28-SNAPSHOT</version>
   </parent>
@@ -46,15 +46,15 @@
 
 
   <packaging>pom</packaging>
-  <groupId>com.silverpeas</groupId>
-  <artifactId>assembly-silverpeas</artifactId>
-  <version>5.15-SNAPSHOT</version>
+  <groupId>org.silverpeas</groupId>
+  <artifactId>silverpeas-assembly</artifactId>
+  <version>6.0-SNAPSHOT</version>
   <name>Assembly Silverpeas</name>
 
   <properties>
-    <core.version>5.15-SNAPSHOT</core.version>
-    <components.version>5.15-SNAPSHOT</components.version>
-    <assembly.version>1.7</assembly.version>
+    <core.version>6.0-SNAPSHOT</core.version>
+    <components.version>6.0-SNAPSHOT</components.version>
+    <assembly.version>1.8-SNAPSHOT</assembly.version>
     <silverpeas_datahome>${silverpeas.home}/data</silverpeas_datahome>
     <silverpeas_home_data>${silverpeas.home}/data</silverpeas_home_data>
   </properties>
@@ -62,36 +62,36 @@
   <dependencies>
     <!-- Component SuggestionBox -->
     <dependency>
-      <groupId>com.silverpeas.components.suggestion-box</groupId>
+      <groupId>org.silverpeas.components.suggestion-box</groupId>
       <artifactId>suggestion-box-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.suggestion-box</groupId>
+      <groupId>org.silverpeas.components.suggestion-box</groupId>
       <artifactId>suggestion-box-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.suggestion-box</groupId>
+      <groupId>org.silverpeas.components.suggestion-box</groupId>
       <artifactId>suggestion-box-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
     </dependency>
     <!-- Component DelegatedNews -->
     <dependency>
-      <groupId>com.silverpeas.components.delegatednews</groupId>
+      <groupId>org.silverpeas.components.delegatednews</groupId>
       <artifactId>delegatednews-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.delegatednews</groupId>
+      <groupId>org.silverpeas.components.delegatednews</groupId>
       <artifactId>delegatednews-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.delegatednews</groupId>
+      <groupId>org.silverpeas.components.delegatednews</groupId>
       <artifactId>delegatednews-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -99,24 +99,24 @@
 
     <!-- Component Gallery -->
     <dependency>
-      <groupId>com.silverpeas.components.gallery</groupId>
+      <groupId>org.silverpeas.components.gallery</groupId>
       <artifactId>gallery-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.gallery</groupId>
+      <groupId>org.silverpeas.components.gallery</groupId>
       <artifactId>gallery-ejb</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.gallery</groupId>
+      <groupId>org.silverpeas.components.gallery</groupId>
       <artifactId>gallery-ejb</artifactId>
       <version>${components.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.gallery</groupId>
+      <groupId>org.silverpeas.components.gallery</groupId>
       <artifactId>gallery-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -124,18 +124,18 @@
 
     <!-- Component Survey -->
     <dependency>
-      <groupId>com.silverpeas.components.survey</groupId>
+      <groupId>org.silverpeas.components.survey</groupId>
       <artifactId>survey-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.survey</groupId>
+      <groupId>org.silverpeas.components.survey</groupId>
       <artifactId>survey-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.survey</groupId>
+      <groupId>org.silverpeas.components.survey</groupId>
       <artifactId>survey-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -143,18 +143,18 @@
 
     <!-- Component Blog -->
     <dependency>
-      <groupId>com.silverpeas.components.blog</groupId>
+      <groupId>org.silverpeas.components.blog</groupId>
       <artifactId>blog-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.blog</groupId>
+      <groupId>org.silverpeas.components.blog</groupId>
       <artifactId>blog-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.blog</groupId>
+      <groupId>org.silverpeas.components.blog</groupId>
       <artifactId>blog-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -162,24 +162,24 @@
 
     <!-- Component Forums -->
     <dependency>
-      <groupId>com.silverpeas.components.forums</groupId>
+      <groupId>org.silverpeas.components.forums</groupId>
       <artifactId>forums-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.forums</groupId>
+      <groupId>org.silverpeas.components.forums</groupId>
       <artifactId>forums-ejb</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.forums</groupId>
+      <groupId>org.silverpeas.components.forums</groupId>
       <artifactId>forums-ejb</artifactId>
       <version>${components.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.forums</groupId>
+      <groupId>org.silverpeas.components.forums</groupId>
       <artifactId>forums-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -187,18 +187,18 @@
 
     <!-- Component Hyperlink -->
     <dependency>
-      <groupId>com.silverpeas.components.hyperlink</groupId>
+      <groupId>org.silverpeas.components.hyperlink</groupId>
       <artifactId>hyperlink-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.hyperlink</groupId>
+      <groupId>org.silverpeas.components.hyperlink</groupId>
       <artifactId>hyperlink-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.hyperlink</groupId>
+      <groupId>org.silverpeas.components.hyperlink</groupId>
       <artifactId>hyperlink-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -206,18 +206,18 @@
 
     <!-- Component Quickinfo -->
     <dependency>
-      <groupId>com.silverpeas.components.quickinfo</groupId>
+      <groupId>org.silverpeas.components.quickinfo</groupId>
       <artifactId>quickinfo-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.quickinfo</groupId>
+      <groupId>org.silverpeas.components.quickinfo</groupId>
       <artifactId>quickinfo-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.quickinfo</groupId>
+      <groupId>org.silverpeas.components.quickinfo</groupId>
       <artifactId>quickinfo-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -225,18 +225,18 @@
 
     <!-- Component Quizz -->
     <dependency>
-      <groupId>com.silverpeas.components.quizz</groupId>
+      <groupId>org.silverpeas.components.quizz</groupId>
       <artifactId>quizz-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.quizz</groupId>
+      <groupId>org.silverpeas.components.quizz</groupId>
       <artifactId>quizz-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.quizz</groupId>
+      <groupId>org.silverpeas.components.quizz</groupId>
       <artifactId>quizz-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -244,18 +244,18 @@
 
     <!-- Component JDBC Connector -->
     <dependency>
-      <groupId>com.silverpeas.components.jdbc-connector</groupId>
+      <groupId>org.silverpeas.components.jdbc-connector</groupId>
       <artifactId>jdbc-connector-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.jdbc-connector</groupId>
+      <groupId>org.silverpeas.components.jdbc-connector</groupId>
       <artifactId>jdbc-connector-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.jdbc-connector</groupId>
+      <groupId>org.silverpeas.components.jdbc-connector</groupId>
       <artifactId>jdbc-connector-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -263,18 +263,18 @@
 
     <!-- Component RSS Aggregator -->
     <dependency>
-      <groupId>com.silverpeas.components.rssaggregator</groupId>
+      <groupId>org.silverpeas.components.rssaggregator</groupId>
       <artifactId>rssaggregator-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.rssaggregator</groupId>
+      <groupId>org.silverpeas.components.rssaggregator</groupId>
       <artifactId>rssaggregator-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.rssaggregator</groupId>
+      <groupId>org.silverpeas.components.rssaggregator</groupId>
       <artifactId>rssaggregator-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -282,24 +282,24 @@
 
     <!-- Component MyDB -->
     <dependency>
-      <groupId>com.silverpeas.components.mydb</groupId>
+      <groupId>org.silverpeas.components.mydb</groupId>
       <artifactId>mydb-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.mydb</groupId>
+      <groupId>org.silverpeas.components.mydb</groupId>
       <artifactId>mydb-ejb</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.mydb</groupId>
+      <groupId>org.silverpeas.components.mydb</groupId>
       <artifactId>mydb-ejb</artifactId>
       <version>${components.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.mydb</groupId>
+      <groupId>org.silverpeas.components.mydb</groupId>
       <artifactId>mydb-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -307,24 +307,24 @@
 
     <!-- Component Project Manager -->
     <dependency>
-      <groupId>com.silverpeas.components.project-manager</groupId>
+      <groupId>org.silverpeas.components.project-manager</groupId>
       <artifactId>project-manager-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.project-manager</groupId>
+      <groupId>org.silverpeas.components.project-manager</groupId>
       <artifactId>project-manager-ejb</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.project-manager</groupId>
+      <groupId>org.silverpeas.components.project-manager</groupId>
       <artifactId>project-manager-ejb</artifactId>
       <version>${components.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.project-manager</groupId>
+      <groupId>org.silverpeas.components.project-manager</groupId>
       <artifactId>project-manager-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -332,24 +332,24 @@
 
     <!-- Component Web Sites -->
     <dependency>
-      <groupId>com.silverpeas.components.websites</groupId>
+      <groupId>org.silverpeas.components.websites</groupId>
       <artifactId>websites-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.websites</groupId>
+      <groupId>org.silverpeas.components.websites</groupId>
       <artifactId>websites-ejb</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.websites</groupId>
+      <groupId>org.silverpeas.components.websites</groupId>
       <artifactId>websites-ejb</artifactId>
       <version>${components.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.websites</groupId>
+      <groupId>org.silverpeas.components.websites</groupId>
       <artifactId>websites-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -357,18 +357,18 @@
 
     <!-- Component Whitepages -->
     <dependency>
-      <groupId>com.silverpeas.components.whitepages</groupId>
+      <groupId>org.silverpeas.components.whitepages</groupId>
       <artifactId>whitepages-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.whitepages</groupId>
+      <groupId>org.silverpeas.components.whitepages</groupId>
       <artifactId>whitepages-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.whitepages</groupId>
+      <groupId>org.silverpeas.components.whitepages</groupId>
       <artifactId>whitepages-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -376,18 +376,18 @@
 
     <!-- Component QuestionReply -->
     <dependency>
-      <groupId>com.silverpeas.components.question-reply</groupId>
+      <groupId>org.silverpeas.components.question-reply</groupId>
       <artifactId>question-reply-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.question-reply</groupId>
+      <groupId>org.silverpeas.components.question-reply</groupId>
       <artifactId>question-reply-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.question-reply</groupId>
+      <groupId>org.silverpeas.components.question-reply</groupId>
       <artifactId>question-reply-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -395,18 +395,18 @@
 
     <!-- Component WebPages -->
     <dependency>
-      <groupId>com.silverpeas.components.webpages</groupId>
+      <groupId>org.silverpeas.components.webpages</groupId>
       <artifactId>webpages-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.webpages</groupId>
+      <groupId>org.silverpeas.components.webpages</groupId>
       <artifactId>webpages-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.webpages</groupId>
+      <groupId>org.silverpeas.components.webpages</groupId>
       <artifactId>webpages-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -414,18 +414,18 @@
 
     <!-- Component Chat -->
     <dependency>
-      <groupId>com.silverpeas.components.chat</groupId>
+      <groupId>org.silverpeas.components.chat</groupId>
       <artifactId>chat-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.chat</groupId>
+      <groupId>org.silverpeas.components.chat</groupId>
       <artifactId>chat-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.chat</groupId>
+      <groupId>org.silverpeas.components.chat</groupId>
       <artifactId>chat-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -433,18 +433,18 @@
 
     <!-- Component Mailinglist -->
     <dependency>
-      <groupId>com.silverpeas.components.mailinglist</groupId>
+      <groupId>org.silverpeas.components.mailinglist</groupId>
       <artifactId>mailinglist-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.mailinglist</groupId>
+      <groupId>org.silverpeas.components.mailinglist</groupId>
       <artifactId>mailinglist-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.mailinglist</groupId>
+      <groupId>org.silverpeas.components.mailinglist</groupId>
       <artifactId>mailinglist-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -452,18 +452,18 @@
 
     <!-- Component InfoLetter -->
     <dependency>
-      <groupId>com.silverpeas.components.infoletter</groupId>
+      <groupId>org.silverpeas.components.infoletter</groupId>
       <artifactId>infoletter-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.infoletter</groupId>
+      <groupId>org.silverpeas.components.infoletter</groupId>
       <artifactId>infoletter-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.infoletter</groupId>
+      <groupId>org.silverpeas.components.infoletter</groupId>
       <artifactId>infoletter-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -471,18 +471,18 @@
 
     <!-- Component Wiki -->
     <dependency>
-      <groupId>com.silverpeas.components.wiki</groupId>
+      <groupId>org.silverpeas.components.wiki</groupId>
       <artifactId>wiki-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.wiki</groupId>
+      <groupId>org.silverpeas.components.wiki</groupId>
       <artifactId>wiki-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.wiki</groupId>
+      <groupId>org.silverpeas.components.wiki</groupId>
       <artifactId>wiki-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -490,24 +490,24 @@
 
     <!-- Component Kmelia -->
     <dependency>
-      <groupId>com.silverpeas.components.kmelia</groupId>
+      <groupId>org.silverpeas.components.kmelia</groupId>
       <artifactId>kmelia-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.kmelia</groupId>
+      <groupId>org.silverpeas.components.kmelia</groupId>
       <artifactId>kmelia-ejb</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.kmelia</groupId>
+      <groupId>org.silverpeas.components.kmelia</groupId>
       <artifactId>kmelia-ejb</artifactId>
       <version>${components.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.kmelia</groupId>
+      <groupId>org.silverpeas.components.kmelia</groupId>
       <artifactId>kmelia-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -515,24 +515,24 @@
 
     <!-- Component Almanach -->
     <dependency>
-      <groupId>com.silverpeas.components.almanach</groupId>
+      <groupId>org.silverpeas.components.almanach</groupId>
       <artifactId>almanach-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.almanach</groupId>
+      <groupId>org.silverpeas.components.almanach</groupId>
       <artifactId>almanach-ejb</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.almanach</groupId>
+      <groupId>org.silverpeas.components.almanach</groupId>
       <artifactId>almanach-ejb</artifactId>
       <version>${components.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.almanach</groupId>
+      <groupId>org.silverpeas.components.almanach</groupId>
       <artifactId>almanach-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -540,24 +540,24 @@
 
     <!-- Component Yellow Pages -->
     <dependency>
-      <groupId>com.silverpeas.components.yellowpages</groupId>
+      <groupId>org.silverpeas.components.yellowpages</groupId>
       <artifactId>yellowpages-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.yellowpages</groupId>
+      <groupId>org.silverpeas.components.yellowpages</groupId>
       <artifactId>yellowpages-ejb</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.yellowpages</groupId>
+      <groupId>org.silverpeas.components.yellowpages</groupId>
       <artifactId>yellowpages-ejb</artifactId>
       <version>${components.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.yellowpages</groupId>
+      <groupId>org.silverpeas.components.yellowpages</groupId>
       <artifactId>yellowpages-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -565,18 +565,18 @@
 
     <!-- Component Silver Crawler -->
     <dependency>
-      <groupId>com.silverpeas.components.silvercrawler</groupId>
+      <groupId>org.silverpeas.components.silvercrawler</groupId>
       <artifactId>silvercrawler-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.silvercrawler</groupId>
+      <groupId>org.silverpeas.components.silvercrawler</groupId>
       <artifactId>silvercrawler-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.silvercrawler</groupId>
+      <groupId>org.silverpeas.components.silvercrawler</groupId>
       <artifactId>silvercrawler-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -584,18 +584,18 @@
 
     <!-- Component Resources Manager -->
     <dependency>
-      <groupId>com.silverpeas.components.resources-manager</groupId>
+      <groupId>org.silverpeas.components.resources-manager</groupId>
       <artifactId>resources-manager-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.resources-manager</groupId>
+      <groupId>org.silverpeas.components.resources-manager</groupId>
       <artifactId>resources-manager-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.resources-manager</groupId>
+      <groupId>org.silverpeas.components.resources-manager</groupId>
       <artifactId>resources-manager-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -603,24 +603,24 @@
 
     <!-- Component Process Manager -->
     <dependency>
-      <groupId>com.silverpeas.components.process-manager</groupId>
+      <groupId>org.silverpeas.components.process-manager</groupId>
       <artifactId>process-manager-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.process-manager</groupId>
+      <groupId>org.silverpeas.components.process-manager</groupId>
       <artifactId>process-manager-ejb</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.process-manager</groupId>
+      <groupId>org.silverpeas.components.process-manager</groupId>
       <artifactId>process-manager-ejb</artifactId>
       <version>${components.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.process-manager</groupId>
+      <groupId>org.silverpeas.components.process-manager</groupId>
       <artifactId>process-manager-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -628,18 +628,18 @@
 
     <!-- Component Classifieds -->
     <dependency>
-      <groupId>com.silverpeas.components.classifieds</groupId>
+      <groupId>org.silverpeas.components.classifieds</groupId>
       <artifactId>classifieds-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.classifieds</groupId>
+      <groupId>org.silverpeas.components.classifieds</groupId>
       <artifactId>classifieds-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.classifieds</groupId>
+      <groupId>org.silverpeas.components.classifieds</groupId>
       <artifactId>classifieds-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -647,18 +647,18 @@
 
     <!-- Component FormsOnline -->
     <dependency>
-      <groupId>com.silverpeas.components.formsonline</groupId>
+      <groupId>org.silverpeas.components.formsonline</groupId>
       <artifactId>formsonline-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.formsonline</groupId>
+      <groupId>org.silverpeas.components.formsonline</groupId>
       <artifactId>formsonline-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.formsonline</groupId>
+      <groupId>org.silverpeas.components.formsonline</groupId>
       <artifactId>formsonline-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -666,18 +666,18 @@
 
     <!-- Component Schedule Event -->
     <dependency>
-      <groupId>com.silverpeas.components.scheduleevent</groupId>
+      <groupId>org.silverpeas.components.scheduleevent</groupId>
       <artifactId>scheduleevent-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.scheduleevent</groupId>
+      <groupId>org.silverpeas.components.scheduleevent</groupId>
       <artifactId>scheduleevent-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.scheduleevent</groupId>
+      <groupId>org.silverpeas.components.scheduleevent</groupId>
       <artifactId>scheduleevent-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -685,18 +685,18 @@
 
     <!-- Component Organization Chart -->
     <dependency>
-      <groupId>com.silverpeas.components.organizationchart</groupId>
+      <groupId>org.silverpeas.components.organizationchart</groupId>
       <artifactId>organizationchart-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.organizationchart</groupId>
+      <groupId>org.silverpeas.components.organizationchart</groupId>
       <artifactId>organizationchart-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.organizationchart</groupId>
+      <groupId>org.silverpeas.components.organizationchart</groupId>
       <artifactId>organizationchart-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -704,237 +704,231 @@
     
     <!-- Component SpaceMembers -->
     <dependency>
-      <groupId>com.silverpeas.components.spaceMembers</groupId>
+      <groupId>org.silverpeas.components.spaceMembers</groupId>
       <artifactId>spaceMembers-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.spaceMembers</groupId>
+      <groupId>org.silverpeas.components.spaceMembers</groupId>
       <artifactId>spaceMembers-jar</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.components.spaceMembers</groupId>
+      <groupId>org.silverpeas.components.spaceMembers</groupId>
       <artifactId>spaceMembers-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
     </dependency>
 
     <dependency>
-      <groupId>com.silverpeas.core</groupId>
+      <groupId>org.silverpeas.core</groupId>
       <artifactId>lib-core</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core</groupId>
+      <groupId>org.silverpeas.core</groupId>
       <artifactId>config-core</artifactId>
       <classifier>configuration</classifier>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core</groupId>
+      <groupId>org.silverpeas.core</groupId>
       <artifactId>web-core</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core</groupId>
+      <groupId>org.silverpeas.core</groupId>
       <artifactId>war-core</artifactId>
       <version>${core.version}</version>
       <type>war</type>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>clipboard</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
-      <artifactId>clipboard</artifactId>
-      <version>${core.version}</version>
-      <classifier>client</classifier>
-    </dependency>
-    <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>silverstatistics</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>personalization</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>channels</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>searchengine</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>node</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>node</artifactId>
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>formtemplate</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>formtemplate</artifactId>
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>tagcloud</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>tagcloud</artifactId>
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>notation</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>notation</artifactId>
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>publication</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>publication</artifactId>
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>pdc</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>pdc</artifactId>
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>comment</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>statistic</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>statistic</artifactId>
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>calendar</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>calendar</artifactId>
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>contact</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>contact</artifactId>
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>favorit</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>favorit</artifactId>
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>mylinks</artifactId>
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>mylinks</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>questioncontainer</artifactId>
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>questioncontainer</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>admin</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>admin</artifactId>
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>authentication</artifactId>
       <version>${core.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>authentication</artifactId>
       <version>${core.version}</version>
       <classifier>client</classifier>
     </dependency>
     <dependency>
-      <groupId>com.silverpeas.core.ejb-core</groupId>
+      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>importExport</artifactId>
       <version>${core.version}</version>
     </dependency>
@@ -960,8 +954,8 @@
         <artifactId>maven-assembly-plugin</artifactId>
         <dependencies>
           <dependency>
-            <groupId>com.silverpeas</groupId>
-            <artifactId>assembly</artifactId>
+            <groupId>org.silverpeas</groupId>
+            <artifactId>silverpeas-assembly-structure</artifactId>
             <version>${assembly.version}</version>
           </dependency>
         </dependencies>
