@@ -775,12 +775,6 @@
     </dependency>
     <dependency>
       <groupId>org.silverpeas.core.ejb-core</groupId>
-      <artifactId>node</artifactId>
-      <version>${core.version}</version>
-      <classifier>client</classifier>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>formtemplate</artifactId>
       <version>${core.version}</version>
     </dependency>
