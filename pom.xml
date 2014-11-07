@@ -741,11 +741,6 @@
     </dependency>
     <dependency>
       <groupId>org.silverpeas.core.ejb-core</groupId>
-      <artifactId>channels</artifactId>
-      <version>${core.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>searchengine</artifactId>
       <version>${core.version}</version>
     </dependency>
@@ -775,11 +770,6 @@
       <artifactId>tagcloud</artifactId>
       <version>${core.version}</version>
       <classifier>client</classifier>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.core.ejb-core</groupId>
-      <artifactId>notation</artifactId>
-      <version>${core.version}</version>
     </dependency>
     <dependency>
       <groupId>org.silverpeas.core.ejb-core</groupId>
