@@ -108,12 +108,6 @@
     </dependency>
     <dependency>
       <groupId>org.silverpeas.components.gallery</groupId>
-      <artifactId>gallery-ejb</artifactId>
-      <version>${components.version}</version>
-      <classifier>client</classifier>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.components.gallery</groupId>
       <artifactId>gallery-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -341,12 +335,6 @@
     </dependency>
     <dependency>
       <groupId>org.silverpeas.components.websites</groupId>
-      <artifactId>websites-ejb</artifactId>
-      <version>${components.version}</version>
-      <classifier>client</classifier>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.components.websites</groupId>
       <artifactId>websites-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -480,12 +468,6 @@
     </dependency>
     <dependency>
       <groupId>org.silverpeas.components.kmelia</groupId>
-      <artifactId>kmelia-ejb</artifactId>
-      <version>${components.version}</version>
-      <classifier>client</classifier>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.components.kmelia</groupId>
       <artifactId>kmelia-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -584,12 +566,6 @@
       <groupId>org.silverpeas.components.process-manager</groupId>
       <artifactId>process-manager-ejb</artifactId>
       <version>${components.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.components.process-manager</groupId>
-      <artifactId>process-manager-ejb</artifactId>
-      <version>${components.version}</version>
-      <classifier>client</classifier>
     </dependency>
     <dependency>
       <groupId>org.silverpeas.components.process-manager</groupId>
