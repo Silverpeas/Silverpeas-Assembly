@@ -52,11 +52,8 @@
   <name>Assembly Silverpeas</name>
 
   <properties>
-    <core.version>6.0-SNAPSHOT</core.version>
-    <components.version>6.0-SNAPSHOT</components.version>
-    <assembly.version>1.8-SNAPSHOT</assembly.version>
-    <silverpeas_datahome>${silverpeas.home}/data</silverpeas_datahome>
-    <silverpeas_home_data>${silverpeas.home}/data</silverpeas_home_data>
+    <core.version>${project.version}</core.version>
+    <components.version>${project.version}</components.version>
   </properties>
 
   <dependencies>
@@ -508,12 +505,6 @@
     </dependency>
     <dependency>
       <groupId>org.silverpeas.components.almanach</groupId>
-      <artifactId>almanach-ejb</artifactId>
-      <version>${components.version}</version>
-      <classifier>client</classifier>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.components.almanach</groupId>
       <artifactId>almanach-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
@@ -756,20 +747,8 @@
     </dependency>
     <dependency>
       <groupId>org.silverpeas.core.ejb-core</groupId>
-      <artifactId>formtemplate</artifactId>
-      <version>${core.version}</version>
-      <classifier>client</classifier>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>tagcloud</artifactId>
       <version>${core.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.core.ejb-core</groupId>
-      <artifactId>tagcloud</artifactId>
-      <version>${core.version}</version>
-      <classifier>client</classifier>
     </dependency>
     <dependency>
       <groupId>org.silverpeas.core.ejb-core</groupId>
@@ -778,20 +757,8 @@
     </dependency>
     <dependency>
       <groupId>org.silverpeas.core.ejb-core</groupId>
-      <artifactId>publication</artifactId>
-      <version>${core.version}</version>
-      <classifier>client</classifier>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>pdc</artifactId>
       <version>${core.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.core.ejb-core</groupId>
-      <artifactId>pdc</artifactId>
-      <version>${core.version}</version>
-      <classifier>client</classifier>
     </dependency>
     <dependency>
       <groupId>org.silverpeas.core.ejb-core</groupId>
@@ -805,20 +772,8 @@
     </dependency>
     <dependency>
       <groupId>org.silverpeas.core.ejb-core</groupId>
-      <artifactId>statistic</artifactId>
-      <version>${core.version}</version>
-      <classifier>client</classifier>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>calendar</artifactId>
       <version>${core.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.core.ejb-core</groupId>
-      <artifactId>calendar</artifactId>
-      <version>${core.version}</version>
-      <classifier>client</classifier>
     </dependency>
     <dependency>
       <groupId>org.silverpeas.core.ejb-core</groupId>
@@ -827,37 +782,8 @@
     </dependency>
     <dependency>
       <groupId>org.silverpeas.core.ejb-core</groupId>
-      <artifactId>contact</artifactId>
-      <version>${core.version}</version>
-      <classifier>client</classifier>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.core.ejb-core</groupId>
-      <artifactId>favorit</artifactId>
-      <version>${core.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.core.ejb-core</groupId>
-      <artifactId>favorit</artifactId>
-      <version>${core.version}</version>
-      <classifier>client</classifier>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>mylinks</artifactId>
       <version>${core.version}</version>
-      <classifier>client</classifier>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.core.ejb-core</groupId>
-      <artifactId>mylinks</artifactId>
-      <version>${core.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.core.ejb-core</groupId>
-      <artifactId>questioncontainer</artifactId>
-      <version>${core.version}</version>
-      <classifier>client</classifier>
     </dependency>
     <dependency>
       <groupId>org.silverpeas.core.ejb-core</groupId>
@@ -871,30 +797,17 @@
     </dependency>
     <dependency>
       <groupId>org.silverpeas.core.ejb-core</groupId>
-      <artifactId>admin</artifactId>
-      <version>${core.version}</version>
-      <classifier>client</classifier>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>authentication</artifactId>
       <version>${core.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.core.ejb-core</groupId>
-      <artifactId>authentication</artifactId>
-      <version>${core.version}</version>
-      <classifier>client</classifier>
     </dependency>
     <dependency>
       <groupId>org.silverpeas.core.ejb-core</groupId>
       <artifactId>importExport</artifactId>
       <version>${core.version}</version>
     </dependency>
-
     <dependency>
-      <groupId>javax.mail</groupId>
-      <artifactId>mail</artifactId>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
     </dependency>
     <dependency>
       <groupId>net.sourceforge.jtds</groupId>
@@ -905,173 +818,5 @@
       <artifactId>h2</artifactId>
     </dependency>
   </dependencies>
-
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-assembly-plugin</artifactId>
-        <dependencies>
-          <dependency>
-            <groupId>org.silverpeas</groupId>
-            <artifactId>silverpeas-assembly-structure</artifactId>
-            <version>${assembly.version}</version>
-          </dependency>
-        </dependencies>
-        <executions>
-          <execution>
-            <id>manage-repository</id>
-            <phase>package</phase>
-            <goals>
-              <goal>single</goal>
-            </goals>
-            <configuration>
-              <descriptorRefs>
-                <descriptorRef>assembly-repository</descriptorRef>
-              </descriptorRefs>
-              <appendAssemblyId>false</appendAssemblyId>
-              <attach>false</attach>
-              <skipAssembly>false</skipAssembly>
-              <finalName>repository</finalName>
-              <outputDirectory>${silverpeas.home}</outputDirectory>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <artifactId>maven-dependency-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>manage-configuration</id>
-            <phase>process-sources</phase>
-            <goals>
-              <goal>unpack-dependencies</goal>
-            </goals>
-            <configuration>
-              <classifier>configuration</classifier>
-              <type>jar</type>
-              <includeClassifiers>configuration</includeClassifiers>
-              <excludeClassifiers>client,source,javadoc</excludeClassifiers>
-              <excludeTypes>ejb,war</excludeTypes>
-              <overWrite>true</overWrite>
-              <outputDirectory>${silverpeas.home}</outputDirectory>
-              <failOnMissingClassifierArtifact>false</failOnMissingClassifierArtifact>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <groupId>com.goldin.plugins</groupId>
-        <artifactId>maven-copy-plugin</artifactId>
-        <version>0.2.3.5</version>
-        <executions>
-          <execution>
-            <id>copy-data-configuration</id>
-            <phase>install</phase>
-            <goals>
-              <goal>copy</goal>
-            </goals>
-            <configuration>
-              <runIf>{{silverpeas_datahome != silverpeas_home_data}}</runIf>
-              <resources>
-                <!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
-                <!-- Copying all XML configs -->
-                <!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
-                <resource>
-                  <failIfNotFound>true</failIfNotFound>
-                  <targetPath>${silverpeas_datahome}</targetPath>
-                  <directory>${silverpeas_home_data}</directory>
-                  <preservePath>true</preservePath>
-                  <mkdir>true</mkdir>
-                  <cleanEmptyDirectories>false</cleanEmptyDirectories>
-                </resource>
-              </resources>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <artifactId>maven-clean-plugin</artifactId>
-        <configuration>
-          <filesets>
-            <fileset>
-              <directory>${silverpeas.home}/repository</directory>
-              <includes>
-                <include>**/**</include>
-              </includes>
-              <followSymlinks>false</followSymlinks>
-            </fileset>
-            <fileset>
-              <directory>${silverpeas.home}/silvertrace</directory>
-              <includes>
-                <include>**/**</include>
-              </includes>
-              <followSymlinks>false</followSymlinks>
-            </fileset>
-            <fileset>
-              <directory>${silverpeas.home}/properties</directory>
-              <includes>
-                <include>**/**</include>
-              </includes>
-              <excludes>
-                <exclude>com/stratelia/silverpeas/authentication/*.*</exclude>
-                <exclude>com/stratelia/silverpeas/domains/**/*.*</exclude>
-                <exclude>com/stratelia/webactiv/util/viewGenerator/settings/*.*</exclude>
-                <exclude>org/silverpeas/authentication/*.*</exclude>
-                <exclude>org/silverpeas/domains/**/*.*</exclude>
-                <exclude>org/silverpeas/util/viewGenerator/settings/*.*</exclude>
-              </excludes>
-              <followSymlinks>false</followSymlinks>
-            </fileset>
-            <fileset>
-              <directory>${silverpeas.home}/initialize</directory>
-              <includes>
-                <include>**/**</include>
-              </includes>
-              <followSymlinks>false</followSymlinks>
-            </fileset>
-            <fileset>
-              <directory>${silverpeas.home}/dbRepository</directory>
-              <includes>
-                <include>**/**</include>
-              </includes>
-              <followSymlinks>false</followSymlinks>
-            </fileset>
-            <fileset>
-              <directory>${silverpeas.home}/jar</directory>
-              <includes>
-                <include>**/**</include>
-              </includes>
-              <followSymlinks>false</followSymlinks>
-            </fileset>
-            <fileset>
-              <directory>${silverpeas.home}/xmlcomponents</directory>
-              <includes>
-                <include>**/**</include>
-              </includes>
-              <excludes>
-                <exclude>workflows/*.*</exclude>
-              </excludes>
-              <followSymlinks>false</followSymlinks>
-            </fileset>
-            <fileset>
-              <directory>${silverpeas.home}/log</directory>
-              <includes>
-                <include>*.log</include>
-              </includes>
-              <followSymlinks>false</followSymlinks>
-            </fileset>
-            <fileset>
-              <directory>${silverpeas.home}/resources/StringTemplates</directory>
-              <includes>
-                <include>**/**</include>
-              </includes>
-              <followSymlinks>false</followSymlinks>
-            </fileset>
-          </filesets>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
 
 </project>
