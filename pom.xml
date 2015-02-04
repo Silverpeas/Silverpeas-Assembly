@@ -165,12 +165,6 @@
     </dependency>
     <dependency>
       <groupId>org.silverpeas.components.forums</groupId>
-      <artifactId>forums-ejb</artifactId>
-      <version>${components.version}</version>
-      <classifier>client</classifier>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.components.forums</groupId>
       <artifactId>forums-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
