@@ -450,7 +450,6 @@
     -->
 
     <!-- Component InfoLetter -->
-    <!--
     <dependency>
       <groupId>org.silverpeas.components.infoletter</groupId>
       <artifactId>infoletter-war</artifactId>
@@ -468,7 +467,6 @@
       <version>${components.version}</version>
       <classifier>configuration</classifier>
     </dependency>
-    -->
 
     <!-- Component Kmelia -->
     <dependency>
