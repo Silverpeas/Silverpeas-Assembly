@@ -347,7 +347,6 @@
     </dependency>
 
     <!-- Component Whitepages -->
-    <!--
     <dependency>
       <groupId>org.silverpeas.components.whitepages</groupId>
       <artifactId>whitepages-war</artifactId>
@@ -365,7 +364,6 @@
       <version>${components.version}</version>
       <classifier>configuration</classifier>
     </dependency>
-    -->
 
     <!-- Component QuestionReply -->
     <dependency>
