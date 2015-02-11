@@ -385,7 +385,6 @@
     </dependency>
 
     <!-- Component WebPages -->
-    <!--
     <dependency>
       <groupId>org.silverpeas.components.webpages</groupId>
       <artifactId>webpages-war</artifactId>
@@ -403,7 +402,6 @@
       <version>${components.version}</version>
       <classifier>configuration</classifier>
     </dependency>
-    -->
 
     <!-- Component Chat -->
     <!--
