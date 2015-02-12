@@ -211,7 +211,6 @@
     </dependency>
 
     <!-- Component Quizz -->
-    <!--
     <dependency>
       <groupId>org.silverpeas.components.quizz</groupId>
       <artifactId>quizz-war</artifactId>
@@ -229,7 +228,6 @@
       <version>${components.version}</version>
       <classifier>configuration</classifier>
     </dependency>
-    -->
 
     <!-- Component JDBC Connector -->
     <!--
