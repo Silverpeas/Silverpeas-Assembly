@@ -230,7 +230,6 @@
     </dependency>
 
     <!-- Component JDBC Connector -->
-    <!--
     <dependency>
       <groupId>org.silverpeas.components.jdbc-connector</groupId>
       <artifactId>jdbc-connector-war</artifactId>
@@ -248,7 +247,6 @@
       <version>${components.version}</version>
       <classifier>configuration</classifier>
     </dependency>
-    -->
 
     <!-- Component RSS Aggregator -->
     <!--
