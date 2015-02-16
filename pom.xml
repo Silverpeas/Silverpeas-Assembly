@@ -297,7 +297,6 @@
     -->
 
     <!-- Component Project Manager -->
-    <!--
     <dependency>
       <groupId>org.silverpeas.components.project-manager</groupId>
       <artifactId>project-manager-war</artifactId>
@@ -311,17 +310,10 @@
     </dependency>
     <dependency>
       <groupId>org.silverpeas.components.project-manager</groupId>
-      <artifactId>project-manager-ejb</artifactId>
-      <version>${components.version}</version>
-      <classifier>client</classifier>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.components.project-manager</groupId>
       <artifactId>project-manager-config</artifactId>
       <version>${components.version}</version>
       <classifier>configuration</classifier>
     </dependency>
-    -->
 
     <!-- Component Web Sites -->
     <dependency>
