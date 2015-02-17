@@ -626,7 +626,6 @@
     -->
 
     <!-- Component Organization Chart -->
-    <!--
     <dependency>
       <groupId>org.silverpeas.components.organizationchart</groupId>
       <artifactId>organizationchart-war</artifactId>
@@ -644,7 +643,6 @@
       <version>${components.version}</version>
       <classifier>configuration</classifier>
     </dependency>
-    -->
     
     <!-- Component SpaceMembers -->
     <!--
