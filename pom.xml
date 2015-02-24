@@ -58,7 +58,6 @@
 
   <dependencies>
     <!-- Component SuggestionBox -->
-    <!--
     <dependency>
       <groupId>org.silverpeas.components.suggestion-box</groupId>
       <artifactId>suggestion-box-war</artifactId>
@@ -76,7 +75,7 @@
       <version>${components.version}</version>
       <classifier>configuration</classifier>
     </dependency>
-    -->
+
     <!-- Component DelegatedNews -->
     <dependency>
       <groupId>org.silverpeas.components.delegatednews</groupId>
