@@ -411,7 +411,6 @@
     -->
 
     <!-- Component Mailinglist -->
-    <!--
     <dependency>
       <groupId>org.silverpeas.components.mailinglist</groupId>
       <artifactId>mailinglist-war</artifactId>
@@ -429,7 +428,6 @@
       <version>${components.version}</version>
       <classifier>configuration</classifier>
     </dependency>
-    -->
 
     <!-- Component InfoLetter -->
     <dependency>
