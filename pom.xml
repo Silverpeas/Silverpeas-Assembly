@@ -601,7 +601,6 @@
     </dependency>
 
     <!-- Component Schedule Event -->
-    <!--
     <dependency>
       <groupId>org.silverpeas.components.scheduleevent</groupId>
       <artifactId>scheduleevent-war</artifactId>
@@ -619,7 +618,6 @@
       <version>${components.version}</version>
       <classifier>configuration</classifier>
     </dependency>
-    -->
 
     <!-- Component Organization Chart -->
     <dependency>
