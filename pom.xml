@@ -638,7 +638,6 @@
     </dependency>
     
     <!-- Component SpaceMembers -->
-    <!--
     <dependency>
       <groupId>org.silverpeas.components.spaceMembers</groupId>
       <artifactId>spaceMembers-war</artifactId>
@@ -656,7 +655,6 @@
       <version>${components.version}</version>
       <classifier>configuration</classifier>
     </dependency>
-    -->
 
     <dependency>
       <groupId>org.silverpeas.core</groupId>
