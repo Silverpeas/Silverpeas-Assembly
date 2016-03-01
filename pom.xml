@@ -73,7 +73,6 @@
       <groupId>org.silverpeas.components.suggestionbox</groupId>
       <artifactId>silverpeas-suggestionbox-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component DelegatedNews -->
@@ -92,7 +91,6 @@
       <groupId>org.silverpeas.components.delegatednews</groupId>
       <artifactId>silverpeas-delegatednews-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component Gallery -->
@@ -111,7 +109,6 @@
       <groupId>org.silverpeas.components.gallery</groupId>
       <artifactId>silverpeas-gallery-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component Survey -->
@@ -130,7 +127,6 @@
       <groupId>org.silverpeas.components.survey</groupId>
       <artifactId>silverpeas-survey-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component Blog -->
@@ -149,7 +145,6 @@
       <groupId>org.silverpeas.components.blog</groupId>
       <artifactId>silverpeas-blog-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component Forums -->
@@ -168,7 +163,6 @@
       <groupId>org.silverpeas.components.forums</groupId>
       <artifactId>silverpeas-forums-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component Hyperlink -->
@@ -187,7 +181,6 @@
       <groupId>org.silverpeas.components.hyperlink</groupId>
       <artifactId>silverpeas-hyperlink-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component Quickinfo -->
@@ -206,7 +199,6 @@
       <groupId>org.silverpeas.components.quickinfo</groupId>
       <artifactId>silverpeas-quickinfo-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component Quizz -->
@@ -225,7 +217,6 @@
       <groupId>org.silverpeas.components.quizz</groupId>
       <artifactId>silverpeas-quizz-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component JDBC Connector -->
@@ -244,7 +235,6 @@
       <groupId>org.silverpeas.components.jdbcconnector</groupId>
       <artifactId>silverpeas-jdbcconnector-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component RSS Aggregator -->
@@ -263,7 +253,6 @@
       <groupId>org.silverpeas.components.rssaggregator</groupId>
       <artifactId>silverpeas-rssaggregator-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component MyDB -->
@@ -289,7 +278,6 @@
       <groupId>org.silverpeas.components.mydb</groupId>
       <artifactId>mydb-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
     -->
 
@@ -309,7 +297,6 @@
       <groupId>org.silverpeas.components.projectmanager</groupId>
       <artifactId>silverpeas-projectmanager-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component Web Sites -->
@@ -328,7 +315,6 @@
       <groupId>org.silverpeas.components.websites</groupId>
       <artifactId>silverpeas-websites-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component Whitepages -->
@@ -347,7 +333,6 @@
       <groupId>org.silverpeas.components.whitepages</groupId>
       <artifactId>silverpeas-whitepages-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component QuestionReply -->
@@ -366,7 +351,6 @@
       <groupId>org.silverpeas.components.questionreply</groupId>
       <artifactId>silverpeas-questionreply-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component WebPages -->
@@ -385,7 +369,6 @@
       <groupId>org.silverpeas.components.webpages</groupId>
       <artifactId>silverpeas-webpages-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component Chat -->
@@ -405,7 +388,6 @@
       <groupId>org.silverpeas.components.chat</groupId>
       <artifactId>chat-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
     -->
 
@@ -425,7 +407,6 @@
       <groupId>org.silverpeas.components.mailinglist</groupId>
       <artifactId>silverpeas-mailinglist-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component InfoLetter -->
@@ -444,7 +425,6 @@
       <groupId>org.silverpeas.components.infoletter</groupId>
       <artifactId>silverpeas-infoletter-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component Kmelia -->
@@ -463,7 +443,6 @@
       <groupId>org.silverpeas.components.kmelia</groupId>
       <artifactId>silverpeas-kmelia-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component Almanach -->
@@ -482,7 +461,6 @@
       <groupId>org.silverpeas.components.almanach</groupId>
       <artifactId>silverpeas-almanach-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component Yellow Pages -->
@@ -501,7 +479,6 @@
       <groupId>org.silverpeas.components.yellowpages</groupId>
       <artifactId>silverpeas-yellowpages-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component Silver Crawler -->
@@ -520,7 +497,6 @@
       <groupId>org.silverpeas.components.silvercrawler</groupId>
       <artifactId>silverpeas-silvercrawler-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component Resources Manager -->
@@ -539,7 +515,6 @@
       <groupId>org.silverpeas.components.resourcesmanager</groupId>
       <artifactId>silverpeas-resourcesmanager-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component Process Manager -->
@@ -558,7 +533,6 @@
       <groupId>org.silverpeas.components.processmanager</groupId>
       <artifactId>silverpeas-processmanager-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component Classifieds -->
@@ -577,7 +551,6 @@
       <groupId>org.silverpeas.components.classifieds</groupId>
       <artifactId>silverpeas-classifieds-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component FormsOnline -->
@@ -596,7 +569,6 @@
       <groupId>org.silverpeas.components.formsonline</groupId>
       <artifactId>silverpeas-formsonline-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component Schedule Event -->
@@ -615,7 +587,6 @@
       <groupId>org.silverpeas.components.scheduleevent</groupId>
       <artifactId>silverpeas-scheduleevent-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component Organization Chart -->
@@ -634,7 +605,6 @@
       <groupId>org.silverpeas.components.organizationchart</groupId>
       <artifactId>silverpeas-organizationchart-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Component SpaceMembers -->
@@ -653,7 +623,6 @@
       <groupId>org.silverpeas.components.spacemembers</groupId>
       <artifactId>silverpeas-spacemembers-configuration</artifactId>
       <version>${components.version}</version>
-      <classifier>configuration</classifier>
     </dependency>
 
     <!-- Silverpeas Core -->
@@ -665,7 +634,6 @@
     <dependency>
       <groupId>org.silverpeas.core</groupId>
       <artifactId>silverpeas-core-configuration</artifactId>
-      <classifier>configuration</classifier>
       <version>${core.version}</version>
     </dependency>
     <dependency>
