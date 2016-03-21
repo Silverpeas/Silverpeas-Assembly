@@ -659,11 +659,6 @@
     </dependency>
     <dependency>
       <groupId>org.silverpeas.core.services</groupId>
-      <artifactId>silverpeas-core-searchengine</artifactId>
-      <version>${core.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.core.services</groupId>
       <artifactId>silverpeas-core-workflow</artifactId>
       <version>${core.version}</version>
     </dependency>
