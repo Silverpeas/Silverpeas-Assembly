@@ -679,11 +679,6 @@
     </dependency>
     <dependency>
       <groupId>org.silverpeas.core.services</groupId>
-      <artifactId>silverpeas-core-statistic</artifactId>
-      <version>${core.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.core.services</groupId>
       <artifactId>silverpeas-core-calendar</artifactId>
       <version>${core.version}</version>
     </dependency>
