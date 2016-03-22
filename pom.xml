@@ -707,6 +707,11 @@
       <artifactId>silverpeas-core-viewer</artifactId>
       <version>${core.version}</version>
     </dependency>
+    <dependency>
+      <groupId>org.silverpeas.core.services</groupId>
+      <artifactId>silverpeas-core-sharing</artifactId>
+      <version>${core.version}</version>
+    </dependency>
 
     <!-- Jackrabbit JCA -->
     <dependency>
