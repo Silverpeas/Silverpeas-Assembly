@@ -30,13 +30,13 @@
   <parent>
     <groupId>org.silverpeas</groupId>
     <artifactId>silverpeas-project</artifactId>
-    <version>1.1-build180618</version>
+    <version>1.0</version>
   </parent>
 
   <packaging>pom</packaging>
   <groupId>org.silverpeas</groupId>
   <artifactId>silverpeas-assembly</artifactId>
-  <version>6.1-SNAPSHOT</version>
+  <version>6.0.1-build180702</version>
   <name>Assembly Silverpeas</name>
 
   <scm>
@@ -78,10 +78,10 @@
 
   <properties>
     <!-- property used by the CI to both deploy a build version and release the next stable version -->
-    <next.release>6.1</next.release>
+    <next.release>6.0.1</next.release>
     <core.version>${project.version}</core.version>
     <components.version>${project.version}</components.version>
-    <jackrabbit.version>2.16.1</jackrabbit.version>
+    <jackrabbit.version>2.14.4</jackrabbit.version>
   </properties>
 
   <dependencies>
