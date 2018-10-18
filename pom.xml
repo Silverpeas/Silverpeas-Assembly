@@ -284,30 +284,22 @@
     </dependency>
 
     <!-- Component MyDB -->
-    <!--
     <dependency>
       <groupId>org.silverpeas.components.mydb</groupId>
-      <artifactId>mydb-war</artifactId>
+      <artifactId>silverpeas-mydb-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
       <groupId>org.silverpeas.components.mydb</groupId>
-      <artifactId>mydb</artifactId>
+      <artifactId>silverpeas-mydb</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
       <groupId>org.silverpeas.components.mydb</groupId>
-      <artifactId>mydb</artifactId>
-      <version>${components.version}</version>
-      <classifier>client</classifier>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.components.mydb</groupId>
-      <artifactId>mydb-configuration</artifactId>
+      <artifactId>silverpeas-mydb-configuration</artifactId>
       <version>${components.version}</version>
     </dependency>
-    -->
 
     <!-- Component Project Manager -->
     <dependency>
