@@ -30,13 +30,13 @@
   <parent>
     <groupId>org.silverpeas</groupId>
     <artifactId>silverpeas-project</artifactId>
-    <version>1.1-build181003</version>
+    <version>1.0</version>
   </parent>
 
   <packaging>pom</packaging>
   <groupId>org.silverpeas</groupId>
   <artifactId>silverpeas-assembly</artifactId>
-  <version>6.1-SNAPSHOT</version>
+  <version>6.0.2-build181106</version>
   <name>Assembly Silverpeas</name>
 
   <scm>
@@ -78,10 +78,10 @@
 
   <properties>
     <!-- property used by the CI to both deploy a build version and release the next stable version -->
-    <next.release>6.1</next.release>
+    <next.release>6.0.2</next.release>
     <core.version>${project.version}</core.version>
     <components.version>${project.version}</components.version>
-    <jackrabbit.version>2.16.3-build180829</jackrabbit.version>
+    <jackrabbit.version>2.14.4</jackrabbit.version>
   </properties>
 
   <dependencies>
@@ -284,22 +284,30 @@
     </dependency>
 
     <!-- Component MyDB -->
+    <!--
     <dependency>
       <groupId>org.silverpeas.components.mydb</groupId>
-      <artifactId>silverpeas-mydb-war</artifactId>
+      <artifactId>mydb-war</artifactId>
       <type>war</type>
       <version>${components.version}</version>
     </dependency>
     <dependency>
       <groupId>org.silverpeas.components.mydb</groupId>
-      <artifactId>silverpeas-mydb</artifactId>
+      <artifactId>mydb</artifactId>
       <version>${components.version}</version>
     </dependency>
     <dependency>
       <groupId>org.silverpeas.components.mydb</groupId>
-      <artifactId>silverpeas-mydb-configuration</artifactId>
+      <artifactId>mydb</artifactId>
+      <version>${components.version}</version>
+      <classifier>client</classifier>
+    </dependency>
+    <dependency>
+      <groupId>org.silverpeas.components.mydb</groupId>
+      <artifactId>mydb-configuration</artifactId>
       <version>${components.version}</version>
     </dependency>
+    -->
 
     <!-- Component Project Manager -->
     <dependency>
