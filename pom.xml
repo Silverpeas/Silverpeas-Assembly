@@ -30,7 +30,7 @@
   <parent>
     <groupId>org.silverpeas</groupId>
     <artifactId>silverpeas-project</artifactId>
-    <version>1.2-build191113</version>
+    <version>1.2-build191120</version>
   </parent>
 
   <packaging>pom</packaging>
@@ -81,7 +81,7 @@
     <next.release>6.1</next.release>
     <core.version>${project.version}</core.version>
     <components.version>${project.version}</components.version>
-    <jackrabbit.version>2.18.3-build190806</jackrabbit.version>
+    <jackrabbit.version>2.18.4-build191120</jackrabbit.version>
   </properties>
 
   <dependencies>
