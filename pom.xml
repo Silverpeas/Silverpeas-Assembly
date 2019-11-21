@@ -81,7 +81,7 @@
     <next.release>6.1</next.release>
     <core.version>${project.version}</core.version>
     <components.version>${project.version}</components.version>
-    <jackrabbit.version>2.18.4-build191120</jackrabbit.version>
+    <jackrabbit.version>2.18.4-build191121</jackrabbit.version>
   </properties>
 
   <dependencies>
