@@ -30,7 +30,7 @@
   <parent>
     <groupId>org.silverpeas</groupId>
     <artifactId>silverpeas-project</artifactId>
-    <version>1.2</version>
+    <version>1.3-SNAPSHOT</version>
   </parent>
 
   <packaging>pom</packaging>
@@ -390,26 +390,6 @@
       <artifactId>silverpeas-webpages-configuration</artifactId>
       <version>${components.version}</version>
     </dependency>
-
-    <!-- Component Chat -->
-    <!--
-    <dependency>
-      <groupId>org.silverpeas.components.chat</groupId>
-      <artifactId>chat-war</artifactId>
-      <type>war</type>
-      <version>${components.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.components.chat</groupId>
-      <artifactId>chat</artifactId>
-      <version>${components.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.silverpeas.components.chat</groupId>
-      <artifactId>chat-configuration</artifactId>
-      <version>${components.version}</version>
-    </dependency>
-    -->
 
     <!-- Component Mailinglist -->
     <dependency>
