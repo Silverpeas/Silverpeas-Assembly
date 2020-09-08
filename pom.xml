@@ -42,7 +42,7 @@
   <scm>
     <connection>scm:git:git@github.com:Silverpeas/Assembly-Silverpeas.git</connection>
     <developerConnection>scm:git:git@github.com:Silverpeas/Assembly-Silverpeas.git</developerConnection>
-    <url>http://gitub.com/Silverpeas/Assembly-Silverpeas</url>
+    <url>https://gitub.com/Silverpeas/Assembly-Silverpeas</url>
     <tag>HEAD</tag>
   </scm>
 
@@ -51,7 +51,7 @@
       <id>Silverpeas</id>
       <layout>default</layout>
       <name>Silverpeas Repository</name>
-      <url>http://www.silverpeas.org/nexus/content/groups/silverpeas</url>
+      <url>https://www.silverpeas.org/nexus/content/groups/silverpeas</url>
       <releases>
         <enabled>true</enabled>
       </releases>
@@ -66,7 +66,7 @@
       <id>Silverpeas</id>
       <layout>default</layout>
       <name>Silverpeas Repository</name>
-      <url>http://www.silverpeas.org/nexus/content/groups/silverpeas</url>
+      <url>https://www.silverpeas.org/nexus/content/groups/silverpeas</url>
       <releases>
         <enabled>true</enabled>
       </releases>
