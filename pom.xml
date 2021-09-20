@@ -81,7 +81,7 @@
     <next.release>6.3</next.release>
     <core.version>${project.version}</core.version>
     <components.version>${project.version}</components.version>
-    <jackrabbit.version>2.20.2</jackrabbit.version>
+    <jackrabbit.version>2.20.3</jackrabbit.version>
   </properties>
 
   <dependencies>
