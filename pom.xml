@@ -85,6 +85,24 @@
   </properties>
 
   <dependencies>
+    <!-- Component Community -->
+    <dependency>
+      <groupId>org.silverpeas.components.community</groupId>
+      <artifactId>silverpeas-community-war</artifactId>
+      <type>war</type>
+      <version>${components.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.silverpeas.components.community</groupId>
+      <artifactId>silverpeas-community</artifactId>
+      <version>${components.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.silverpeas.components.community</groupId>
+      <artifactId>silverpeas-community-configuration</artifactId>
+      <version>${components.version}</version>
+    </dependency>
+
     <!-- Component SuggestionBox -->
     <dependency>
       <groupId>org.silverpeas.components.suggestionbox</groupId>
