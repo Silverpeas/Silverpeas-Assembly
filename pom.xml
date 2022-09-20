@@ -30,7 +30,7 @@
   <parent>
     <groupId>org.silverpeas</groupId>
     <artifactId>silverpeas-project</artifactId>
-    <version>1.5</version>
+    <version>1.6-SNAPSHOT</version>
   </parent>
 
   <packaging>pom</packaging>
@@ -81,7 +81,7 @@
     <next.release>6.4</next.release>
     <core.version>${project.version}</core.version>
     <components.version>${project.version}</components.version>
-    <jackrabbit.version>2.20.5</jackrabbit.version>
+    <jcr.version>1.0-SNAPSHOT</jcr.version>
   </properties>
 
   <dependencies>
@@ -731,12 +731,11 @@
       <version>${core.version}</version>
     </dependency>
 
-    <!-- Jackrabbit JCA -->
+    <!-- JCR -->
     <dependency>
       <groupId>org.silverpeas.jcr</groupId>
-      <artifactId>jackrabbit-jca</artifactId>
-      <version>${jackrabbit.version}</version>
-      <type>rar</type>
+      <artifactId>silverpeas-jcr</artifactId>
+      <version>${jcr.version}</version>
     </dependency>
 
     <!-- JDBC drivers -->
