@@ -81,7 +81,6 @@
     <next.release>6.4</next.release>
     <core.version>${project.version}</core.version>
     <components.version>${project.version}</components.version>
-    <jcr.version>1.0-SNAPSHOT</jcr.version>
   </properties>
 
   <dependencies>
@@ -729,13 +728,6 @@
       <groupId>org.silverpeas.core.services</groupId>
       <artifactId>silverpeas-core-sharing</artifactId>
       <version>${core.version}</version>
-    </dependency>
-
-    <!-- JCR -->
-    <dependency>
-      <groupId>org.silverpeas.jcr</groupId>
-      <artifactId>silverpeas-jcr</artifactId>
-      <version>${jcr.version}</version>
     </dependency>
 
     <!-- JDBC drivers -->
