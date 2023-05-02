@@ -36,7 +36,7 @@
   <packaging>pom</packaging>
   <groupId>org.silverpeas</groupId>
   <artifactId>silverpeas-assembly</artifactId>
-  <version>6.4-SNAPSHOT</version>
+  <version>6.4-JR-SNAPSHOT</version>
   <name>Assembly Silverpeas</name>
 
   <scm>
