@@ -721,6 +721,12 @@
       <artifactId>jackrabbit-jca</artifactId>
       <version>${jackrabbit.version}</version>
       <type>rar</type>
+      <exclusions>
+        <exclusion>
+          <groupId>org.apache.jackrabbit</groupId>
+          <artifactId>jackrabbit-jca</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
 
     <!-- JDBC drivers -->
