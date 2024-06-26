@@ -38,14 +38,14 @@
   <packaging>pom</packaging>
   <groupId>org.silverpeas</groupId>
   <artifactId>silverpeas-assembly</artifactId>
-  <version>6.4.1-SNAPSHOT</version>
+  <version>6.4.2-SNAPSHOT</version>
   <name>Assembly Silverpeas</name>
 
   <scm>
     <connection>scm:git:git@github.com:Silverpeas/Assembly-Silverpeas.git</connection>
     <developerConnection>scm:git:git@github.com:Silverpeas/Assembly-Silverpeas.git</developerConnection>
     <url>https://gitub.com/Silverpeas/Assembly-Silverpeas</url>
-    <tag>6.4</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <repositories>
@@ -80,7 +80,7 @@
 
   <properties>
     <!-- property used by the CI to both deploy a build version and release the next stable version -->
-    <next.release>6.4.1</next.release>
+    <next.release>6.4.2</next.release>
     <core.version>${project.version}</core.version>
     <components.version>${project.version}</components.version>
   </properties>
