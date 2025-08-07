@@ -38,14 +38,14 @@
   <packaging>pom</packaging>
   <groupId>org.silverpeas</groupId>
   <artifactId>silverpeas-assembly</artifactId>
-  <version>6.4.4-SNAPSHOT</version>
+  <version>6.4.4</version>
   <name>Assembly Silverpeas</name>
 
   <scm>
     <connection>scm:git:git@github.com:Silverpeas/Assembly-Silverpeas.git</connection>
     <developerConnection>scm:git:git@github.com:Silverpeas/Assembly-Silverpeas.git</developerConnection>
     <url>https://gitub.com/Silverpeas/Assembly-Silverpeas</url>
-    <tag>HEAD</tag>
+    <tag>6.4.4</tag>
   </scm>
 
   <repositories>
