@@ -38,7 +38,7 @@
   <packaging>pom</packaging>
   <groupId>org.silverpeas</groupId>
   <artifactId>silverpeas-assembly</artifactId>
-  <version>6.4.4-SNAPSHOT</version>
+  <version>6.4.5-SNAPSHOT</version>
   <name>Assembly Silverpeas</name>
 
   <scm>
@@ -80,7 +80,7 @@
 
   <properties>
     <!-- property used by the CI to both deploy a build version and release the next stable version -->
-    <next.release>6.4.4</next.release>
+    <next.release>6.4.5</next.release>
     <core.version>${project.version}</core.version>
     <components.version>${project.version}</components.version>
   </properties>
