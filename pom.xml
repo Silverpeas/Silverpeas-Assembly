@@ -104,6 +104,24 @@
       <version>${components.version}</version>
     </dependency>
 
+    <!-- Component Discussion -->
+    <dependency>
+      <groupId>org.silverpeas.components.discussion</groupId>
+      <artifactId>silverpeas-discussion-war</artifactId>
+      <type>war</type>
+      <version>${components.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.silverpeas.components.discussion</groupId>
+      <artifactId>silverpeas-discussion</artifactId>
+      <version>${components.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.silverpeas.components.discussion</groupId>
+      <artifactId>silverpeas-discussion-configuration</artifactId>
+      <version>${components.version}</version>
+    </dependency>
+
     <!-- Component SuggestionBox -->
     <dependency>
       <groupId>org.silverpeas.components.suggestionbox</groupId>
