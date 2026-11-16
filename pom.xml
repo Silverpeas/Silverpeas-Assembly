@@ -626,6 +626,19 @@
       <version>${components.version}</version>
     </dependency>
 
+    <!-- Component DirectoryViewer -->
+    <dependency>
+      <groupId>org.silverpeas.components.directoryviewer</groupId>
+      <artifactId>silverpeas-directoryviewer-war</artifactId>
+      <type>war</type>
+      <version>${components.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.silverpeas.components.directoryviewer</groupId>
+      <artifactId>silverpeas-directoryviewer-configuration</artifactId>
+      <version>${components.version}</version>
+    </dependency>
+
     <!-- Silverpeas Core -->
     <dependency>
       <groupId>org.silverpeas.core</groupId>
